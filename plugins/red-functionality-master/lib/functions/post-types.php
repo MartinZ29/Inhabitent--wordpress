@@ -41,7 +41,7 @@ function register_product_type() {
 		'description'           => 'product for inhabitent',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
-		'taxonomies'            => array( 'category' ),
+		
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -56,7 +56,7 @@ function register_product_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'product_type', $args );
+	register_post_type( 'product', $args );
 
 }
 add_action( 'init', 'register_product_type', 0 );
