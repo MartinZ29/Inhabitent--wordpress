@@ -40,7 +40,7 @@ function register_product_type() {
 		'label'                 => 'Product',
 		'description'           => 'product for inhabitent',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', ),
 		
 		'hierarchical'          => false,
 		'public'                => true,
