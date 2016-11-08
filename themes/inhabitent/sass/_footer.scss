@@ -18,6 +18,13 @@
 
 .contact-info {
     flex-basis: 25%;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .business-hour {
@@ -27,3 +34,4 @@
 .footer-logo {
     flex-basis: 50%;
 }
+

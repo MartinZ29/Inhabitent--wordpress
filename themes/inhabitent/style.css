@@ -673,6 +673,11 @@ object {
 .contact-info {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%; }
+  .contact-info a {
+    text-decoration: none;
+    color: white; }
+  .contact-info a:hover {
+    text-decoration: underline; }
 
 .business-hour {
   -ms-flex-preferred-size: 25%;
