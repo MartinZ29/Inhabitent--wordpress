@@ -10,9 +10,9 @@
 			</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="footer-main">
+				<div class="footer-container">
 					<div class="contact-info">
-						<h2>Contanct Info</h2>
+						<h2>contanct info</h2>
 						<p>
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<a href="info@inhabitent.com"> info@inhabitent.com</a>
@@ -28,7 +28,7 @@
 						</p>
 					</div>
 					<div class="business-hour">
-						<h2>Business Hours</h2>
+						<h2>business hours</h2>
 						<p><span>Monday-Friday</span> 9am to 5am</p>
 						<p><span>Saturday</span> 10am to 2pm</p>
 						<p><span>Sunday</span> Closed</p>
