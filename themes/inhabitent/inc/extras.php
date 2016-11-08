@@ -32,3 +32,14 @@ function my_login_logo(){  ?>
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 
+// function my_style_methor(){
+//	if(!is_page_template('page-about.php')){
+//		return;
+//	}
+
+// 	$url = CFS()->get('about_background_image');
+// 	$custom_css = ".about-hero{bakcground-image:url({$url});}";
+//	wp_add_inline_style('red-starter-style',$cunstom_css);
+	
+// }
+//add_action('wp_enqueue_scripts','my_style_method');
