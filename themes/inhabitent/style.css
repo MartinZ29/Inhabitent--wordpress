@@ -669,3 +669,15 @@ object {
 .footer-container {
   display: -ms-flexbox;
   display: flex; }
+
+.contact-info {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; }
+
+.business-hour {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; }
+
+.footer-logo {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
