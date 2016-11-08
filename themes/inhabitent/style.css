@@ -656,3 +656,16 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-footer {
+  background: url(../../images/dark-wood@2x.png); }
+  .site-footer h2 {
+    color: #d99054;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.5; }
+  .site-footer p {
+    color: white; }
+
+.footer-container {
+  display: -ms-flexbox;
+  display: flex; }
