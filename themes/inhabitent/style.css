@@ -656,6 +656,9 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.home-banner {
+  background: url(../../images/home-hero.jpg) no-repeat; }
+
 .site-footer {
   background: url(../../images/dark-wood@2x.png); }
   .site-footer h2 {

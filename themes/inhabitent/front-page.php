@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
 
+<section class="home-banner">
+    <img src=" <?php get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg">
+</section>
 
 <?php 
 $taxonomies = get_term( array(
@@ -14,3 +17,5 @@ foreach ($taxonomies as $term):?>
     <a href=""><?php echo $term -> name; ?></a>
     <?php endforeach; wp_reset_postdata(); ?>
 
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
