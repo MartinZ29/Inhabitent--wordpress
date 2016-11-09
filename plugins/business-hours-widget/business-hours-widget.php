@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package   business-hours-widget
+ * @package   Business-hours-widget
  * @author    Martinz <martinzhangyx@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
@@ -24,10 +24,10 @@ if ( ! defined ( 'ABSPATH' ) ) {
 }
 
 // TODO: change 'Widget_Name' to the name of your plugin
-class Widget_Name extends WP_Widget {
+class Business_Hours_Widget extends WP_Widget {
 
     /**
-     * @TODO - Rename "widget-name" to the name your your widget
+     * @TODO - Rename "business-hours-widget" to the name your your widget
      *
      * Unique identifier for your widget.
      *
@@ -35,7 +35,7 @@ class Widget_Name extends WP_Widget {
      *
      * @var      string
      */
-    protected $widget_slug = 'widget-name';
+    protected $widget_slug = 'business-hours-widget';
 
 	/*--------------------------------------------------*/
 	/* Constructor
@@ -49,10 +49,10 @@ class Widget_Name extends WP_Widget {
 		// TODO: update description
 		parent::__construct(
 			$this->get_widget_slug(),
-			'Widget Name',
+			'Business hours widget',
 			array(
 				'classname'  => $this->get_widget_slug().'-class',
-				'description' => 'Short description of the widget goes here.'
+				'description' => 'Add the business\' weekly hour.'
 			)
 		);
 
@@ -153,7 +153,7 @@ class Widget_Name extends WP_Widget {
 
 } // end class
 
-// TODO: Remember to change 'Widget_Name' to match the class name definition
+// TODO: Remember to change 'Business_Hours_Widget' to match the class name definition
 add_action( 'widgets_init', function(){
-     register_widget( 'Widget_Name' );
+     register_widget( 'Business_Hours_Widget' );
 });
