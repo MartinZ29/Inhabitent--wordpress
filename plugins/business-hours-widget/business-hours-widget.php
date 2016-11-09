@@ -93,6 +93,9 @@ class Business_Hours_Widget extends WP_Widget {
 
 		// Manipulate the widget's values based on their input fields
 		$title = empty( $instance['title'] ) ? '' : apply_filters( 'widget_title', $instance['title'] );
+		$monday_friday = empty( $instance['monday_friday'] ) ? '' : apply_filters( 'widget_monday_friday', $instance['monday_friday'] );
+		$saturday = empty( $instance['saturday'] ) ? '' : apply_filters( 'widget_saturday', $instance['saturday'] );
+		$sunday = empty( $instance['sunday'] ) ? '' : apply_filters( 'widget_sunday', $instance['sunday'] );
 		// TODO: other fields go here...
 
 		ob_start();
