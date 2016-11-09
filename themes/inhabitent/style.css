@@ -698,7 +698,7 @@ object {
 
 .home-hero-banner {
   background-image: url("../../images/home-hero.jpg");
-  background-size: cover;
+  background-size: cover cover;
   background-repeat: no-repeat;
   height: 100vh;
   display: -ms-flexbox;
