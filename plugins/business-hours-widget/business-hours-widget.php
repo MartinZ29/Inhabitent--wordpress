@@ -139,11 +139,17 @@ class Business_Hours_Widget extends WP_Widget {
 		$instance = wp_parse_args(
 			(array) $instance,
 			array(
-				'title' => 'My Widget Title',
+				'title' => 'Business Hours',
+				'monday_friday' => '',
+				'saturday' => '',
+				'sunday' => '',
 			)
 		);
 
 		$title = strip_tags( $instance['title'] );
+		$monday_friday = strip_tags( $instance['monday_friday'] );
+		$saturday = strip_tags( $instance['saturday'] );
+		$sunday = strip_tags( $instance['sunday'] );
 		// TODO: Store the rest of values of the widget in their own variables
 
 		// Display the admin form
