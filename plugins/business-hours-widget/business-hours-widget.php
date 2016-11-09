@@ -122,6 +122,9 @@ class Business_Hours_Widget extends WP_Widget {
 		$instance = $old_instance;
 
 		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['monday_friday'] = strip_tags( $new_instance['monday_friday'] );
+		$instance['saturday'] = strip_tags( $new_instance['saturday'] );
+		$instance['sunday'] = strip_tags( $new_instance['sunday'] );
 		// TODO: Here is where you update the rest of your widget's old values with the new, incoming values
 
 		return $instance;
