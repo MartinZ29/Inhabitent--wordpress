@@ -1,24 +1,19 @@
 <?php
 /**
- * RED WordPress Widget Boilerplate
  *
- * The RED Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
- *
- * Lightly forked from the WordPress Widget Boilerplate by @tommcfarlin.
- *
- * @package   Widget_Name
- * @author    Your Name <email@example.com>
+ * @package   business-hours-widget
+ * @author    Martinz <martinzhangyx@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
- * @copyright 2015 Your Name or Company Name
+ * @copyright 2016 Martinz
  *
  * @wordpress-plugin
- * Plugin Name:       @TODO
+ * Plugin Name:       Business-hours-widget
  * Plugin URI:        @TODO
- * Description:       @TODO
+ * Description:       A custom business hours widget plugin
  * Version:           1.0.0
- * Author:            @TODO
- * Author URI:        @TODO
+ * Author:            Martinz
+ * Author URI:        
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
