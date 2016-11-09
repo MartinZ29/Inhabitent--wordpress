@@ -28,9 +28,13 @@ a {
 
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
+	display: flex;
 	width: 100%;
+	justify-content: space-between;
+
+	img {
+		height: 40px;
+	}
 
 	ul {
 		display: none;

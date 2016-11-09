@@ -10,7 +10,7 @@
 			</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="footer-container">
+				<div class="footer-container container">
 					<div class="contact-info">
 						<h2>contanct info</h2>
 						<p>
@@ -26,7 +26,7 @@
 							<i class="fa fa-twitter-square" aria-hidden="true"></i>
 							<i class="fa fa-google-plus-square" aria-hidden="true"></i>
 						</p>
-					</div>
+					</div><!-- contact-info -->
 					<div class="business-hour">
 						<h2>business hours</h2>
 						<p><span>Monday-Friday</span> 9am to 5am</p>
@@ -36,7 +36,7 @@
 					<div class="footer-logo">
 						<a href="#"><img class="footer-img-logo" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg" alt="inhabitent-footer-logo"></a>
 					</div>
-				</div>
+				</div><!-- footer-container -->
 				<div class="site-info">
 					Copyright &copy; 2016 Inhabitent
 					<!-- <a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a> -->

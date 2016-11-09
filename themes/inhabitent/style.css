@@ -339,6 +339,11 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
+.container {
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -421,9 +426,13 @@ a {
 /* Menus */
 .main-navigation {
   clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .main-navigation img {
+    height: 40px; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -656,9 +665,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.home-banner {
-  background: url(../../images/home-hero.jpg) no-repeat; }
-
 .site-footer {
   background: url(../../images/dark-wood@2x.png); }
   .site-footer h2 {
@@ -689,3 +695,13 @@ object {
 .footer-logo {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%; }
+
+.home-hero-banner {
+  background-image: url("../../images/home-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
