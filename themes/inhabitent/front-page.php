@@ -2,7 +2,7 @@
 
 
 <!-- hero banner area !!!!!!!-->
-<section class="home-hero-banner container">
+<section class="home-hero-banner">
     <img src=" <?php echo get_template_directory_uri(). '/images/logos/inhabitent-logo-full.svg'; ?>" class = "banner" alt= "inhabitent-logo" />
 </section>
 
@@ -27,6 +27,25 @@ $taxonomies = get_term( array(
 
 <!-- journal  area ! !!!!!!!!-->
 <section>
+    <h1>Inhabitent Journal</h1>
+    <div class="post-list">
+        <?php 
+            $args = array('post_type' => 'post',
+                          'order' => 'ASC',
+                          'posts_per_page' => 3);
+            $posts = get_posts($args);
+        ?>
+        <?php foreach ($posts as $post ): setup_postdata( $post ); ?>
+        <div class="post-list-info">
+            <?php the_post_thumbnail(["365px, 250px"]); ?>
+            <?php the_date(); ?>
+            <?php comments_number(); ?>
+            <?php the_permalink(); ?>
+            <h2><?php the_title(); ?></h2>
+            <a class="post-list-bottom" href="">Read Entry</a>
+        </div>
+        <?php endforeach; wp_reset_postdata(); ?>
+    </div>
 </section>
 
 
