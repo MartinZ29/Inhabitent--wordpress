@@ -2,8 +2,8 @@
 
 
 <!-- hero banner area !!!!!!!-->
-<section class="home-hero-banner">
-    <img src=" <?php get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg">
+<section class="home-hero-banner container">
+    <img src=" <?php echo get_template_directory_uri(). '/images/logos/inhabitent-logo-full.svg'; ?>" class = "banner" alt= "inhabitent-logo" />
 </section>
 
 
