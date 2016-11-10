@@ -8,7 +8,7 @@
 
 
 <!-- shop stuff area !!!!!!!-->
-<section>
+<section class="shop-list">
     <h1>Shop stuff</h1>
     <div class="shop-items">
         <?php 
@@ -24,7 +24,7 @@ $terms = get_terms('product_type');
 </section>
 
 <!-- journal  area ! !!!!!!!!-->
-<section>
+<section class="journal-list">
     <h1>Inhabitent Journal</h1>
     <div class="post-list">
         <?php 

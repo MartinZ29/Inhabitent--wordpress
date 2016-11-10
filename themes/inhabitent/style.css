@@ -698,13 +698,34 @@ object {
 
 .home-hero-banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") top no-repeat;
-  background-size: cover cover;
+  background-size: cover;
   height: 100vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  height: 275px;
   width: 275px;
   -ms-flex-align: center;
       align-items: center; }
+
+.shop-list {
+  width: 100%; }
+
+.journal-list {
+  width: 100%; }
+
+.content-container {
+  width: 1120px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+  .content-container .content-area {
+    width: 70%;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5%; }
+  .content-container .widget-area {
+    width: 30%;
+    padding-left: 5%; }
