@@ -43,3 +43,14 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 	
 // }
 //add_action('wp_enqueue_scripts','my_style_method');
+
+
+function get_all_product_posts($query){
+    if(is_post_type_archive('product') && !is_admin() && $query->is_main_query() ){
+        $query->set('posts_per_page','16');
+        $query->set('orderby','title');
+        $query->set('order','ASC');
+        return;
+    }
+}
+add_action('pre_get_posts','get_all_product_posts');
