@@ -697,11 +697,14 @@ object {
       flex-basis: 50%; }
 
 .home-hero-banner {
-  background-image: url("../../images/home-hero.jpg");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") top no-repeat;
   background-size: cover cover;
-  background-repeat: no-repeat;
   height: 100vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  height: 275px;
+  width: 275px;
+  -ms-flex-align: center;
+      align-items: center; }
