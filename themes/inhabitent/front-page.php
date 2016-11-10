@@ -29,18 +29,17 @@ $terms = get_terms('product_type');
     <div class="post-list">
         <?php 
             $args = array('post_type' => 'post',
-                          'order' => 'ASC',
+                          'order' => 'DESC',
                           'posts_per_page' => 3);
             $posts = get_posts($args);
         ?>
         <?php foreach ($posts as $post ): setup_postdata( $post ); ?>
         <div class="post-list-info">
-            <?php the_post_thumbnail(["365px, 250px"]); ?>
-            <?php the_date(); ?>
-            <?php comments_number(); ?>
-            <?php the_permalink(); ?>
-            <h2><?php the_title(); ?></h2>
-            <a class="post-list-bottom" href="">Read Entry</a>
+            <?php the_post_thumbnail(); ?>
+            <p><?php the_date(); ?>
+            <?php comments_number(); ?></p>
+            <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+            <a href="<?php the_permalink(); ?>" class="post-list-bottom">Read Entry</a>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
