@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-
+<div class="content-container">
 <div class="about-hero-banner"></div>
 
 <div class="about-content">
@@ -27,4 +27,7 @@ get_header(); ?>
     
 </div>
 
+<?php get_sidebar(); ?>
+
+</div>
 <?php get_footer(); ?>

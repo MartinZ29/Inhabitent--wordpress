@@ -37,7 +37,7 @@ function my_style_methor(){
 		return;
 	}
 
-	$url = CFS()->get('about_image');
+	$url = CFS()->get('#about_image');
 	$custom_css = ".about-hero-banner{bakcground-image:url({$url});}";
 	wp_add_inline_style('red-starter-style',$cunstom_css);
 	
