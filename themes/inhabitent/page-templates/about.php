@@ -1,6 +1,6 @@
 <?php
 /**
- * Tamplate Name: About page
+ * Template Name: About page
  *
  * @package RED_Starter_Theme
  */
@@ -26,3 +26,5 @@ get_header(); ?>
            ?>
     
 </div>
+
+<?php get_footer(); ?>
