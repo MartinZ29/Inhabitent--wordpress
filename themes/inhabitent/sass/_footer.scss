@@ -14,11 +14,13 @@
 
 .footer-container {
     display: flex;
-    padding:3rem;
+    padding-bottom: 3rem;
 }
 
 .contact-info {
     flex-basis: 25%;
+    margin-top: 3rem;
+    padding-right: 2rem;
     a {
         text-decoration: none;
         color: white;
@@ -30,11 +32,22 @@
 
 .business-hour {
     flex-basis: 25%;
+    margin-top: 3rem;
 }
 
 .footer-logo {
     flex-basis: 50%;
-    margin-top: 5%;
-    margin-left:10%;
+    margin-top: 3rem;
+    padding-top:2%;
+    padding-left:20%;
+    .footer-img-logo {
+       
+    }
 }
 
+.site-info {
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+}

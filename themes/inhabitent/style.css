@@ -678,11 +678,13 @@ object {
 .footer-container {
   display: -ms-flexbox;
   display: flex;
-  padding: 3rem; }
+  padding-bottom: 3rem; }
 
 .contact-info {
   -ms-flex-preferred-size: 25%;
-      flex-basis: 25%; }
+      flex-basis: 25%;
+  margin-top: 3rem;
+  padding-right: 2rem; }
   .contact-info a {
     text-decoration: none;
     color: white; }
@@ -691,13 +693,21 @@ object {
 
 .business-hour {
   -ms-flex-preferred-size: 25%;
-      flex-basis: 25%; }
+      flex-basis: 25%;
+  margin-top: 3rem; }
 
 .footer-logo {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  margin-top: 5%;
-  margin-left: 10%; }
+  margin-top: 3rem;
+  padding-top: 2%;
+  padding-left: 20%; }
+
+.site-info {
+  text-align: center;
+  color: white;
+  padding: 1.5rem 0;
+  text-transform: uppercase; }
 
 .site-header {
   display: -ms-flexbox;
@@ -738,9 +748,9 @@ object {
   margin-left: auto;
   margin-right: auto; }
   .content-container .content-area {
-    width: 70%;
+    width: 73%;
     border-right: 1px solid #e1e1e1;
     padding-right: 5%; }
   .content-container .widget-area {
-    width: 30%;
+    width: 27%;
     padding-left: 5%; }
