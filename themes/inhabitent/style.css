@@ -677,7 +677,8 @@ object {
 
 .footer-container {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 3rem; }
 
 .contact-info {
   -ms-flex-preferred-size: 25%;
@@ -694,7 +695,21 @@ object {
 
 .footer-logo {
   -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
+      flex-basis: 50%;
+  margin-top: 5%;
+  margin-left: 10%; }
+
+.site-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background: transparent; }
+  .site-header .site-branding {
+    height: 50px;
+    width: 35px; }
+  .site-header .main-navigation {
+    text-transform: uppercase; }
 
 .home-hero-banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") top no-repeat;

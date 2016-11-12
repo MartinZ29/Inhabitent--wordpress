@@ -34,7 +34,7 @@
 						<p><span>Sunday</span> Closed</p>
 					</div>
 					<div class="footer-logo">
-						<a href="#"><img class="footer-img-logo" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg" alt="inhabitent-footer-logo"></a>
+						<a href="#"><img class="footer-img-logo" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg" alt="inhabitent-footer-logo"></a>
 					</div>
 				</div><!-- footer-container -->
 				<div class="site-info">

@@ -7,19 +7,20 @@
 
 get_header(); ?>
 <div class="content-container">
-<div class="about-hero-banner"></div>
 
-<div class="about-content">
-    <?php
-           $props = CFS()->get_field_info('our_story');
-           echo $props['label'];
-           ?>
-           <?php echo CFS()->get( 'our_story'); ?>
+        <div class="about-hero-banner"></div>
 
-           <?php
-           $props = CFS()-> get_field_info('our_team');
-           echo $props['label'];
-           ?>
+            <div class="about-content">
+                <?php
+                $props = CFS()->get_field_info('our_story');
+                echo $props['label'];
+            ?>
+            <?php echo CFS()->get( 'our_story'); ?>
+
+            <?php
+            $props = CFS()-> get_field_info('our_team');
+            echo $props['label'];
+            ?>
 
            <?php 
            echo CFS()->get( 'our_team');

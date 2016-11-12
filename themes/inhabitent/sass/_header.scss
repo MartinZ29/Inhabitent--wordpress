@@ -1,0 +1,13 @@
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    .site-branding {
+        height: 50px;
+        width: 35px;
+    }
+    .main-navigation{
+        text-transform: uppercase;
+    }
+}
