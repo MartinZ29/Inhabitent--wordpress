@@ -1,13 +1,20 @@
 
 .site-header {
+    padding-left: 10%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: transparent;
+    position: fixed;
+    
     .site-branding {
         height: 50px;
         width: 35px;
     }
     .main-navigation{
         text-transform: uppercase;
+        a{
+            color:white;
+        }
     }
 }
