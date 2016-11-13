@@ -22,6 +22,8 @@
                     top: 0;
                     padding: 0.75rem 1.5rem;
                     line-height: 1.25;
+                    color: white;
+                    text-transform: uppercase;
                     a {
                         color: white;
                         text-decoration: none;
@@ -43,3 +45,28 @@
     }
 }
 
+.comments-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.entry-footer {
+    .cat-links {
+        margin-right: 1.5rem;
+        display: inline-block;
+        text-transform: uppercase;
+        a {
+            color: #248a83;
+            text-decoration: none;
+        }
+    }
+    .tags-links {
+        margin-right: 1.5rem;
+        display: inline-block;
+        text-transform: uppercase;
+        a {
+            color: #248a83;
+            text-decoration: none;
+        }
+    }
+}
