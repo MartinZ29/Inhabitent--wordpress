@@ -866,4 +866,19 @@ object {
     padding-right: 5%; }
   .content-container .widget-area {
     width: 27%;
-    padding-left: 5%; }
+    padding: 3rem 0 3rem 5%; }
+    .content-container .widget-area .widget {
+      margin-bottom: 3rem; }
+      .content-container .widget-area .widget h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase; }
+      .content-container .widget-area .widget p {
+        margin-bottom: 0.5rem; }
+      .content-container .widget-area .widget ul {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0; }
+        .content-container .widget-area .widget ul li a {
+          text-decoration: none;
+          color: #248a83; }
