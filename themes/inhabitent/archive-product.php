@@ -16,17 +16,19 @@ get_header(); ?>
 				?>
 			
 			<!-- .page-header -->
-				<?php $terms = get_terms('product_type'); ?> 
+				<?php $terms = get_terms('product_type'); ?>
+				<div class="shop-stuff-list"> 
 				<?php foreach ($terms as $term) : ?> 
 				<div class='shop-stuff'>
-					<?php $url = get_term_link ($term->slug , 'product_type'); ?> +
+					<?php $url = get_term_link ($term->slug , 'product_type'); ?>
 					<a href='<?php echo $url ?>' class='button'>
 						<?php  echo $term->name ?>
 					</a>
-				</div>
+				</div> <!-- shop stuff -->
 			<?php endforeach; ?>
+				</div> <!--  shop stuff list -->
 			</header>
-			
+
 			<div id="primary" class="archive-area">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>

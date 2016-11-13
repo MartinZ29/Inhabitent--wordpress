@@ -927,3 +927,20 @@ object {
         .content-container .widget-area .widget ul li a {
           text-decoration: none;
           color: #248a83; }
+
+.archive {
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase; }
+  .archive .page-title {
+    margin-top: 0;
+    font-size: 2.5rem; }
+  .archive .shop-stuff-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1.2rem; }
