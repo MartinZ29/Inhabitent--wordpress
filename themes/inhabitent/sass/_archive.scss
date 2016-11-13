@@ -11,8 +11,14 @@
     .shop-stuff-list {
         display: flex;
         justify-content: center;
-        margin-left: 0;
-        padding-left: 0;
         font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        .shop-stuff {
+            margin: 1.5rem;
+            a {
+            color: #248a83;
+            text-decoration: none;
+            }
+        }
     }
 }

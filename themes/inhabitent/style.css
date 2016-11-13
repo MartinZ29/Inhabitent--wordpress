@@ -941,6 +941,10 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    margin-left: 0;
-    padding-left: 0;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; }
+    .archive .shop-stuff-list .shop-stuff {
+      margin: 1.5rem; }
+      .archive .shop-stuff-list .shop-stuff a {
+        color: #248a83;
+        text-decoration: none; }
