@@ -32,15 +32,16 @@ get_header(); ?>
 				<div id="primary" class="archive-area">
 					<?php /* Start the Loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-					<?php
-						get_template_part( 'template-parts/content' );
-					?>
+					<div class="product-item">
+						<?php get_template_part( 'template-parts/content' ); ?>
+					</div>
 					<?php endwhile; ?>
+				</div> <!-- archive area -->
 					<?php the_posts_navigation(); ?>
 					<?php else : ?>
 					<?php get_template_part( 'template-parts/content', 'none' ); ?>
+				
 					<?php endif; ?>
-				</div> <!-- archive area -->
 			</div> <!-- container -->
 		</main>
 		<!-- #main -->
