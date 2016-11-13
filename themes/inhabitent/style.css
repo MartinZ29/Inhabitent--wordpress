@@ -954,10 +954,11 @@ object {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 1.5rem; }
   .archive-area .product-item {
     border: 1px solid #e1e1e1;
     -ms-flex: 0 1 23%;
         flex: 0 1 23%;
-    width: 23%;
     margin-bottom: 1.5rem; }
