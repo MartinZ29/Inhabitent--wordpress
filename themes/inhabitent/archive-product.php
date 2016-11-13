@@ -24,9 +24,9 @@ get_header(); ?>
 						<?php  echo $term->name ?>
 					</a>
 				</div>
+			<?php endforeach; ?>
 			</header>
 			
-			<?php endforeach; ?>
 			<div id="primary" class="archive-area">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
