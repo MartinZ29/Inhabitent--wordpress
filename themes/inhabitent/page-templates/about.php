@@ -26,9 +26,4 @@ get_header(); ?>
            echo CFS()->get( 'our_team');
            ?>
     
-</div>
-
-<?php get_sidebar(); ?>
-
-</div>
 <?php get_footer(); ?>
