@@ -4,6 +4,7 @@
     background: transparent;
     position: fixed;
     padding: 0.5rem 0;
+    border-bottom: 1px solid #e1e1e1;
     .container {
     display: flex;
     justify-content: space-between;
@@ -15,7 +16,7 @@
         .top-menu {
             text-transform: uppercase;
             a{
-                color:white;
+                color:#248a83;
             }
             li {
                 margin-right: 1rem;

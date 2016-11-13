@@ -713,7 +713,8 @@ object {
   width: 100%;
   background: transparent;
   position: fixed;
-  padding: 0.5rem 0; }
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e1e1e1; }
   .site-header .container {
     display: -ms-flexbox;
     display: flex;
@@ -727,7 +728,7 @@ object {
     .site-header .container .top-menu {
       text-transform: uppercase; }
       .site-header .container .top-menu a {
-        color: white; }
+        color: #248a83; }
       .site-header .container .top-menu li {
         margin-right: 1rem; }
 
