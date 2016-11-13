@@ -1,20 +1,25 @@
 
 .site-header {
-    padding-left: 10%;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    padding: 0.5rem 0;
+    .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
-    position: fixed;
-    
-    .site-branding {
-        height: 50px;
-        width: 35px;
-    }
-    .main-navigation{
-        text-transform: uppercase;
-        a{
-            color:white;
+        .site-branding {
+            height: 50px;
+            width: 50px;
+        }
+        .top-menu {
+            text-transform: uppercase;
+            a{
+                color:white;
+            }
+            li {
+                margin-right: 1rem;
+            }
         }
     }
 }
