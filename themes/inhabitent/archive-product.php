@@ -33,13 +33,13 @@ get_header(); ?>
 					<?php /* Start the Loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 					<div class="product-item">
-						<?php get_template_part( 'template-parts/content' ); ?>
+						<?php get_template_part( 'template-parts/product-archive' ); ?>
 					</div>
 					<?php endwhile; ?>
 				</div> <!-- archive area -->
 					<?php the_posts_navigation(); ?>
 					<?php else : ?>
-					<?php get_template_part( 'template-parts/content', 'none' ); ?>
+					<?php get_template_part( 'template-parts/product-archive', 'none' ); ?>
 				
 					<?php endif; ?>
 			</div> <!-- container -->
