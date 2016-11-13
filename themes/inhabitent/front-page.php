@@ -52,5 +52,4 @@ $terms = get_terms('product_type');
 <section>
 </section>
 
-
 <?php get_footer(); ?>

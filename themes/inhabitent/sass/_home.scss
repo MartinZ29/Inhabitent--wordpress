@@ -3,5 +3,43 @@
     padding-top: 50px;
     .content-area {
         padding: 3rem 0;
+        .post {
+            margin-bottom: 4.5rem;
+            .entry-header {
+                position: relative;
+                line-height: 0;
+                .wp-post-image {
+                    width: 100%;
+                    height: auto;
+                }
+                .entry-title {
+                    position: absolute;
+                    font-size: 2.1rem;
+                    background-color: #248a83;
+                    margin-top: 2.25rem;
+                    max-width: 75%;
+                    left: 0;
+                    top: 0;
+                    padding: 0.75rem 1.5rem;
+                    line-height: 1.25;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                }
+                .entry-meta {
+                    position: absolute;
+                    background-color: #248a83;
+                    right: 0;
+                    bottom: 0;
+                    padding: 1rem 1.5rem;
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
 }
+

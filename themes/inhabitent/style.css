@@ -733,6 +733,9 @@ object {
       .site-header .container .top-menu li {
         margin-right: 1rem; }
 
+.home .site-comtent {
+  padding-top: 0; }
+
 .home-hero-banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") top no-repeat;
   background-size: cover;
@@ -812,6 +815,42 @@ object {
         .journal-list .post-list .post-list-info .post-brief-info .post-list-button {
           text-decoration: none;
           text-transform: uppercase; }
+
+.site-content {
+  padding-top: 50px; }
+  .site-content .content-area {
+    padding: 3rem 0; }
+    .site-content .content-area .post {
+      margin-bottom: 4.5rem; }
+      .site-content .content-area .post .entry-header {
+        position: relative;
+        line-height: 0; }
+        .site-content .content-area .post .entry-header .wp-post-image {
+          width: 100%;
+          height: auto; }
+        .site-content .content-area .post .entry-header .entry-title {
+          position: absolute;
+          font-size: 2.1rem;
+          background-color: #248a83;
+          margin-top: 2.25rem;
+          max-width: 75%;
+          left: 0;
+          top: 0;
+          padding: 0.75rem 1.5rem;
+          line-height: 1.25; }
+          .site-content .content-area .post .entry-header .entry-title a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase; }
+        .site-content .content-area .post .entry-header .entry-meta {
+          position: absolute;
+          background-color: #248a83;
+          right: 0;
+          bottom: 0;
+          padding: 1rem 1.5rem;
+          text-transform: uppercase;
+          color: white;
+          font-size: 0.9rem; }
 
 .content-container {
   width: 1120px;
