@@ -714,7 +714,8 @@ object {
   background: transparent;
   position: fixed;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #e1e1e1;
+  background-color: rgba(255, 255, 255, 0.85); }
   .site-header .container {
     display: -ms-flexbox;
     display: flex;
@@ -750,7 +751,8 @@ object {
   .shop-list h1 {
     font-size: 2.5rem;
     margin-bottom: 3.5rem;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   .shop-list .shop-items {
     display: -ms-flexbox;
     display: flex;
@@ -776,7 +778,40 @@ object {
         cursor: pointer; }
 
 .journal-list {
-  width: 100%; }
+  margin-bottom: 4.5rem; }
+  .journal-list h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3.75rem;
+    text-align: center;
+    text-transform: uppercase; }
+  .journal-list .post-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .journal-list .post-list .post-list-info {
+      -ms-flex: 0 1 32%;
+          flex: 0 1 32%;
+      border: 1px solid #e1e1e1; }
+      .journal-list .post-list .post-list-info .thumbnail {
+        background-color: #e1e1e1;
+        height: 250px; }
+      .journal-list .post-list .post-list-info .post-brief-info {
+        padding: 0.75rem;
+        text-transform: uppercase; }
+        .journal-list .post-list .post-list-info .post-brief-info p {
+          font-size: 0.75rem;
+          margin-bottom: 0; }
+        .journal-list .post-list .post-list-info .post-brief-info h2 {
+          font-size: 1.3rem;
+          margin-bottom: 3.75rem;
+          margin-top: 0; }
+          .journal-list .post-list .post-list-info .post-brief-info h2 a {
+            color: #248a83;
+            text-decoration: none; }
+        .journal-list .post-list .post-list-info .post-brief-info .post-list-button {
+          text-decoration: none;
+          text-transform: uppercase; }
 
 .content-container {
   width: 1120px;

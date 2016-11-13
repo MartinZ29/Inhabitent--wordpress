@@ -1,3 +1,5 @@
+
+//  banner here !!!!!!!! 
 .home-hero-banner {
     background: linear-gradient(180deg, rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url('../../images/home-hero.jpg') top no-repeat;
     background-size: cover;
@@ -9,12 +11,14 @@
     margin-bottom: 4.5rem;
 }
 
+//  shop list here !!!!!!!!
 .shop-list {
     margin-bottom: 4.5rem;
     h1 {
         font-size: 2.5rem;
         margin-bottom: 3.5rem;
         text-align: center;
+        text-transform: uppercase;
     }
     .shop-items {
         display: flex;
@@ -42,6 +46,48 @@
     }
 }
 
+//  journal list here !!!!!!!!!!!
 .journal-list {
-    width: 100%;
+    margin-bottom: 4.5rem;
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3.75rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .post-list {
+        display: flex;
+        justify-content: space-between;
+        .post-list-info {
+            flex: 0 1 32%;
+            border: 1px solid #e1e1e1;
+            .thumbnail {
+                background-color: #e1e1e1;
+                height: 250px;
+            }
+            .post-brief-info {
+                padding: 0.75rem;
+                text-transform: uppercase;
+                p {
+                    font-size: 0.75rem;
+                    margin-bottom: 0;
+                }
+                h2 {
+                    font-size: 1.3rem;
+                    margin-bottom: 3.75rem;
+                    margin-top: 0;
+                    a {
+                        color: #248a83;
+                        text-decoration: none;
+                    }
+                }
+                .post-list-button {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    
+                }
+            }
+
+        }
+    }
 }

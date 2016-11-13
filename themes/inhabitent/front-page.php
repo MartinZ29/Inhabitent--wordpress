@@ -26,7 +26,7 @@ $terms = get_terms('product_type');
 </section>
 
 <!-- journal  area ! !!!!!!!!-->
-<section class="journal-list">
+<section class="journal-list container">
     <h1>Inhabitent Journal</h1>
     <div class="post-list">
         <?php 
@@ -37,11 +37,11 @@ $terms = get_terms('product_type');
         ?>
         <?php foreach ($posts as $post ): setup_postdata( $post ); ?>
         <div class="post-list-info">
-            <?php the_post_thumbnail(); ?>
-            <p><?php the_date(); ?>
+            <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
+            <div class="post-brief-info"><p><?php the_date(); ?> / 
             <?php comments_number(); ?></p>
-            <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-            <a href="<?php the_permalink(); ?>" class="post-list-bottom">Read Entry</a>
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
+            <a href="<?php the_permalink(); ?>" class="post-list-button">Read Entry</a>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
