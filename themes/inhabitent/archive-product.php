@@ -8,7 +8,7 @@
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="content-container">
+			<div class="container">
 			<?php if ( have_posts() ) : ?>
 			<header class="archive">
 				<?php
@@ -16,8 +16,8 @@ get_header(); ?>
 				?>
 			
 			<!-- .page-header -->
+				<div class="shop-stuff-list">
 				<?php $terms = get_terms('product_type'); ?>
-				<div class="shop-stuff-list"> 
 				<?php foreach ($terms as $term) : ?> 
 				<div class='shop-stuff'>
 					<?php $url = get_term_link ($term->slug , 'product_type'); ?>
