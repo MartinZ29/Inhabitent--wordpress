@@ -6,10 +6,39 @@
     justify-content: center;
     width: 100vw;
     align-items: center;
+    margin-bottom: 4.5rem;
 }
 
 .shop-list {
-    width: 100%;
+    margin-bottom: 4.5rem;
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3.5rem;
+        text-align: center;
+    }
+    .shop-items {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .product-type {
+            width: 23.5%;
+            border: 1px solid #e1e1e1;
+            flex: 0 1 23.5%;
+            padding: 1rem;            
+            img {
+                height: 70px;
+                width: 70px;
+            }
+            .shop-botton {
+                background: #248a83;
+                color: white;
+                padding: 0.75rem 1.5rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .journal-list {

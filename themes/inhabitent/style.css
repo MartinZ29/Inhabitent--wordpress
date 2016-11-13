@@ -742,10 +742,37 @@ object {
       justify-content: center;
   width: 100vw;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  margin-bottom: 4.5rem; }
 
 .shop-list {
-  width: 100%; }
+  margin-bottom: 4.5rem; }
+  .shop-list h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center; }
+  .shop-list .shop-items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    text-align: center; }
+    .shop-list .shop-items .product-type {
+      width: 23.5%;
+      border: 1px solid #e1e1e1;
+      -ms-flex: 0 1 23.5%;
+          flex: 0 1 23.5%;
+      padding: 1rem; }
+      .shop-list .shop-items .product-type img {
+        height: 70px;
+        width: 70px; }
+      .shop-list .shop-items .product-type .shop-botton {
+        background: #248a83;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer; }
 
 .journal-list {
   width: 100%; }
