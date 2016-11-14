@@ -10,7 +10,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 		    <?php if ( have_posts() ) : ?>
             <div class="container">
-			    <header class="archive">
+			    <header class="archive-header">
 				    <?php
 					    the_archive_title( '<h1 class="page-title">', '</h1>' );
 					    the_archive_description( '<div class="taxonomy-description">', '</div>' );

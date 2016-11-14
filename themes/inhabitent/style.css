@@ -928,24 +928,24 @@ object {
           text-decoration: none;
           color: #248a83; }
 
-.archive {
+.archive-header {
   border-bottom: 1px dashed #c8c8c8;
   margin-bottom: 3rem;
   text-align: center;
   text-transform: uppercase; }
-  .archive .page-title {
+  .archive-header .page-title {
     margin-top: 0;
     font-size: 2.5rem; }
-  .archive .shop-stuff-list {
+  .archive-header .shop-stuff-list {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
     font-size: 1.2rem;
     margin-bottom: 1.5rem; }
-    .archive .shop-stuff-list .shop-stuff {
+    .archive-header .shop-stuff-list .shop-stuff {
       margin: 1.5rem; }
-      .archive .shop-stuff-list .shop-stuff a {
+      .archive-header .shop-stuff-list .shop-stuff a {
         color: #248a83;
         text-decoration: none; }
 
