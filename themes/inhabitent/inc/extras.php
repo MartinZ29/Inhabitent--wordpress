@@ -54,8 +54,12 @@ function get_all_product_posts($query){
         $query->set('posts_per_page','16');
         $query->set('orderby','title');
         $query->set('order','ASC');
-        return;
     }
+    elseif (is_tax() ) {
+	$query->set('posts_per_page', '4');
+	$query->set('orderby', 'title');
+	$query->set('order', 'ASC');
+	}
 }
 add_action('pre_get_posts','get_all_product_posts');
 
