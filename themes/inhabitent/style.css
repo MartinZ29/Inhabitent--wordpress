@@ -962,3 +962,23 @@ object {
     -ms-flex: 0 1 23%;
         flex: 0 1 23%;
     margin-bottom: 1.5rem; }
+    .archive-area .product-item article {
+      margin-bottom: 0; }
+    .archive-area .product-item .product-thumbnail {
+      overflow: hidden;
+      position: relative;
+      height: 250px; }
+      .archive-area .product-item .product-thumbnail img {
+        max-height: 250px;
+        max-width: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -52%);
+        width: auto; }
+    .archive-area .product-item .item-price {
+      padding: 0.75rem 1rem; }
+      .archive-area .product-item .item-price .entry-title {
+        display: inline;
+        text-decoration: none;
+        padding-top: 4px; }

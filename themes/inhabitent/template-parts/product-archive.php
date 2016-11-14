@@ -13,8 +13,8 @@
 		<div class="product-thumbnail"><a href = '<?php the_permalink();?>'> <?php the_post_thumbnail( 'large' ); ?> </a></div>
 		<?php endif; ?>
 		<div class = "item-price">
-			<?php the_title( sprintf( '<p class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></p>' ); ?>
-		  	<p><?php echo CFS()->get( 'product_price' ); ?></p>
+			<?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+		  	<span><?php echo CFS()->get( 'product_price' ); ?></span>
 		</div>	 
 		 
 		 <?php if ( 'post' === get_post_type() ) : ?>
