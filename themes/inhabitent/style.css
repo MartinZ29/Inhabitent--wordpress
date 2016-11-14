@@ -1213,9 +1213,10 @@ input, textarea {
   box-shadow: none;
   cursor: pointer; }
 
-.about-img {
-  text-transform: uppercase; }
-  .about-img h1 {
+.about_image {
+  text-transform: uppercase;
+  background-size: cover; }
+  .about_image h1 {
     font-size: 3rem; }
 
 .about-content {
