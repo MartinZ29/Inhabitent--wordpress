@@ -49,7 +49,28 @@ $terms = get_terms('product_type');
 
 
 <!-- adventure part !!!!!!!!!!-->
-<section>
+<section class="latest-adventure">
+    <h1>Latest Adventure</h1>
+    <div class="adventure">
+        <div class="first-adv">
+            <h1><a href="#">Getting Back to Nature in a Canoe </a></h1>
+            <div class="button"><a href="#"> read more </a></div> 
+        </div>
+        <div class="second-adv">
+            <h1><a href="#">A Night with Friends at the Beach</a></h1>
+            <div class="button"><a href="#"> read more </a></div> 
+        </div>
+        <div class="third-adv">
+            <h1><a href="#">Taking in the view at Big Mountain</a></h1>
+            <div class="button"><a href="#"> read more </a></div> 
+        </div>
+        <div class="fourth-adv">
+            <h1><a href="#">Star - Gazing at the Night Sky</a></h1>
+            <div class="button"><a href="#"> read more </a></div> 
+        </div>
+    </div>
+    <div><a href = "#">More Adventures</a></div>
+
 </section>
 
 <?php get_footer(); ?>
