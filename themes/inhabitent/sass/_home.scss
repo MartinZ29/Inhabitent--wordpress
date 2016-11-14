@@ -98,7 +98,24 @@
             font-size: 1.1rem;
             text-transform: uppercase;
             margin-bottom: 0.5rem;
+            display: block;
+            .required {
+                color: #d99054;
+            }
         }
+        input {
+            width: 100%;
+        }
+    }
+    .comment-form-author {
+        float: left;
+        width: 49%;
+        padding-right: 1%;
+    }
+    .comment-form-email {
+        float: right;
+        width: 49%;
+        padding-left: 1%;
     }
     .form-submit {
         .submit {
@@ -114,4 +131,11 @@
             cursor: pointer;
         }
     }
+}
+
+input, textarea {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
 }

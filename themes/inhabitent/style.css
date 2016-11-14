@@ -1001,7 +1001,23 @@ object {
   color: #2f1339;
   font-size: 1.1rem;
   text-transform: uppercase;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  display: block; }
+  .comment-respond .comment-form-comment label .required, .comment-respond .comment-form-author label .required, .comment-respond .comment-form-email label .required, .comment-respond .comment-form-url label .required {
+    color: #d99054; }
+
+.comment-respond .comment-form-comment input, .comment-respond .comment-form-author input, .comment-respond .comment-form-email input, .comment-respond .comment-form-url input {
+  width: 100%; }
+
+.comment-respond .comment-form-author {
+  float: left;
+  width: 49%;
+  padding-right: 1%; }
+
+.comment-respond .comment-form-email {
+  float: right;
+  width: 49%;
+  padding-left: 1%; }
 
 .comment-respond .form-submit .submit {
   font-size: 0.9rem;
@@ -1014,6 +1030,12 @@ object {
   text-transform: uppercase;
   box-shadow: none;
   cursor: pointer; }
+
+input, textarea {
+  color: #666;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  border-radius: 0; }
 
 .content-container {
   width: 1120px;
