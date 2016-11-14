@@ -980,5 +980,9 @@ object {
       padding: 0.75rem 1rem; }
       .archive-area .product-item .item-price .entry-title {
         display: inline;
-        text-decoration: none;
-        padding-top: 4px; }
+        padding-top: 4px;
+        text-transform: none; }
+        .archive-area .product-item .item-price .entry-title a {
+          text-decoration: none;
+          color: #2f1339;
+          font-weight: 400; }

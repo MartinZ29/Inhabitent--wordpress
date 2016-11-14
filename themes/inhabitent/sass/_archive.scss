@@ -53,8 +53,13 @@
             padding: 0.75rem 1rem;
             .entry-title {
                 display: inline;
-                text-decoration: none;
                 padding-top: 4px;
+                text-transform: none;
+                a {
+                    text-decoration: none;
+                    color: #2f1339;
+                    font-weight: 400;                    
+                }
 
             }
         }
