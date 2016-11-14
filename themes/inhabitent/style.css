@@ -734,14 +734,12 @@ object {
         margin-right: 1rem; }
 
 .search-header fieldset {
-  border: none;
-  padding-top: 0;
-  padding-bottom: 0; }
-  .search-header fieldset .searche-submit {
-    border: 1px solid rgba(255, 255, 255, 0.85); }
+  border: none; }
   .search-header fieldset .fa {
     font-size: 1.2rem;
     color: #248a83; }
+  .search-header fieldset button {
+    visibility: hidden; }
   .search-header fieldset input[type="search"] {
     border: none;
     width: 0px;
