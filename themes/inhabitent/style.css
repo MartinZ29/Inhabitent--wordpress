@@ -997,7 +997,7 @@ object {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-.comment-respond .comment-form-comment label {
+.comment-respond .comment-form-comment label, .comment-respond .comment-form-author label, .comment-respond .comment-form-email label, .comment-respond .comment-form-url label {
   color: #2f1339;
   font-size: 1.1rem;
   text-transform: uppercase;
