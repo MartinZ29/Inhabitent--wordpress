@@ -24,10 +24,10 @@ get_header(); ?>
             		        <div class = "product-thumbnail">
 						        <a href="<?php the_permalink() ; ?> "><?php the_post_thumbnail( 'large' ); ?></a>
 					        </div>
-         				    <div class = "item-price">        				        
-							    <?php the_title('<h3 class="entry-title">'); ?> 
-              				    <span><?php echo CFS()->get( 'product_price' ); ?></span>
-        			        </div>
+         				    <div class = "item-price">
+			                    <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+		  	                    <span><?php echo CFS()->get( 'product_price' ); ?></span>
+		                    </div>
                         </article><!-- #post-## -->
 				        </div> <!-- product-item -->
 					    <?php endwhile ?>     
