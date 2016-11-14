@@ -9,18 +9,12 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'template-parts/content', 'single-product' ); ?>
-
-            <?php echo CFS()->get('product_price'); ?>
-
-
-
-		<?php endwhile; // End of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+			<div class="container">
+			<?php while ( have_posts() ) : the_post(); ?>
+			<?php get_template_part( 'template-parts/product-archive-single', 'single-product' ); ?>
+			<?php endwhile; ?>
+			</div>
+		</main>
+	</div>
 
 <?php get_footer(); ?>
