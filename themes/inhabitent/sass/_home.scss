@@ -41,6 +41,11 @@
                     font-size: 0.9rem;
                 }
             }
+            .entry-content {
+                .BodyA {
+                    line-height: 1.75;
+                }
+            }
         }
     }
 }
@@ -48,6 +53,15 @@
 .comments-link a {
     text-decoration: none;
     color: white;
+}
+
+.read-more {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 0.75rem 1.5rem;
+    color: #000;
+    
 }
 
 .entry-footer {
