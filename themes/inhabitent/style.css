@@ -1068,6 +1068,11 @@ object {
   box-shadow: none;
   cursor: pointer; }
 
+.about-img {
+  text-transform: uppercase; }
+  .about-img h1 {
+    font-size: 3rem; }
+
 .about-content {
   margin: 3rem auto;
   max-width: 800px; }
