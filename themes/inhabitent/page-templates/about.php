@@ -7,9 +7,8 @@
 
 get_header(); ?>
         <div class="about_image">
-            
+             <h1>About</h1>
         </div>
-        <h1>About</h1>
         <div class="container">
             <div class="about-content">
                 <h2><?php

@@ -47,19 +47,20 @@ add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
 
 // about img!!!!
-function my_style_methor(){
-	if(!is_page_template('about.php')){
+function my_styles_method(){
+	if(!is_page_template('page-templates/about.php')){
 		return;
 	}
 
-	$url = CFS()->get('about_image');
-	$custom_css = ".about_image{
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url({$url});
+	$url = CFS()->get('background_image');
+	$custom_css = "
+	.about_image {
+        background-image: url({$url});
         }";
 	wp_add_inline_style('red-starter-style',$custom_css);
 	
 }
-add_action('wp_enqueue_scripts','my_style_method');
+add_action('wp_enqueue_scripts','my_styles_method');
 
 
 // archive post style
