@@ -46,7 +46,5 @@ get_header(); ?>
 		</main>
 		<!-- #main -->
 	</div> <!-- content-area -->
-		
-		<!-- #primary -->
 
 <?php get_footer(); ?>

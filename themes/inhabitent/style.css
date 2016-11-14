@@ -1033,6 +1033,9 @@ object {
         .single-product-content .single-product-info .social-buttons .social-btn i {
           margin-right: 10px; }
 
+.taxonomy-description {
+  text-transform: none; }
+
 .post-126 .entry-header h1 {
   font-size: 2.4rem;
   margin: 0 0 0.5rem 0;
