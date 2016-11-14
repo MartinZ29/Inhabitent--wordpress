@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<div class="content-container">
+<div class="container">
 
         <div class="about-img"></div>
 
@@ -25,5 +25,7 @@ get_header(); ?>
            <?php 
            echo CFS()->get( 'our_team');
            ?>
+           </div>
+</div>
     
 <?php get_footer(); ?>
