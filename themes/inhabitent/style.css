@@ -1067,3 +1067,7 @@ object {
   text-transform: uppercase;
   box-shadow: none;
   cursor: pointer; }
+
+.about-content {
+  margin: 3rem auto;
+  max-width: 800px; }
