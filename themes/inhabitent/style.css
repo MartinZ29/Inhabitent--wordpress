@@ -1056,17 +1056,18 @@ object {
       margin-bottom: 1.5rem; }
     .single-product-content .single-product-info .entry-content p {
       line-height: 1.75; }
-    .single-product-content .single-product-info .social-buttons {
-      margin: 1.5rem 0; }
-      .single-product-content .single-product-info .social-buttons .social-btn {
-        border: 1px solid #000;
-        padding: 0.75rem 1.5rem;
-        background: white;
-        text-transform: uppercase;
-        border-radius: 0;
-        font-size: 0.9rem; }
-        .single-product-content .single-product-info .social-buttons .social-btn i {
-          margin-right: 10px; }
+
+.social-buttons {
+  margin: 1.5rem 0; }
+  .social-buttons .social-btn {
+    border: 1px solid #000;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 0.9rem; }
+    .social-buttons .social-btn i {
+      margin-right: 10px; }
 
 .taxonomy-description {
   text-transform: none;
