@@ -47,6 +47,8 @@ function my_style_methor(){
 add_action('wp_enqueue_scripts','my_style_method');
 
 
+
+
 function get_all_product_posts($query){
     if(is_post_type_archive('product') && !is_admin() && $query->is_main_query() ){
         $query->set('posts_per_page','16');
@@ -56,3 +58,19 @@ function get_all_product_posts($query){
     }
 }
 add_action('pre_get_posts','get_all_product_posts');
+
+
+/**
+*	Set custom archive title
+*/ 
+function display_custom_archive_title ($title) {
+	if (is_post_type_archive ('product' )) {
+		$title = "Shop Stuff";
+	}
+	elseif(is_tax() ) {
+        $title = single_term_title( '', false );
+    }
+return $title;
+}
+	
+add_filter( 'get_the_archive_title', 'display_custom_archive_title');
