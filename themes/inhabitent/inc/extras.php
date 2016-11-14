@@ -53,7 +53,7 @@ function my_style_methor(){
 	}
 
 	$url = CFS()->get('about_image');
-	$custom_css = ".about-img{
+	$custom_css = ".about_image{
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url({$url});
         }";
 	wp_add_inline_style('red-starter-style',$custom_css);
