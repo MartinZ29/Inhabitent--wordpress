@@ -49,7 +49,7 @@ $terms = get_terms('product_type');
 
 
 <!-- adventure part !!!!!!!!!!-->
-<section class="latest-adventure">
+<section class="latest-adventure container">
     <h1>Latest Adventure</h1>
     <div class="adventure">
         <div class="first-adv">
