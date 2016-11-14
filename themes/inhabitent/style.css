@@ -724,7 +724,7 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     .site-header .container .site-branding {
-      height: 50px;
+      height: 33px;
       width: 50px; }
     .site-header .container .top-menu {
       text-transform: uppercase; }
@@ -732,6 +732,27 @@ object {
         color: #248a83; }
       .site-header .container .top-menu li {
         margin-right: 1rem; }
+
+.search-header fieldset {
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .search-header fieldset .searche-submit {
+    border: 1px solid rgba(255, 255, 255, 0.85); }
+  .search-header fieldset .fa {
+    font-size: 1.2rem;
+    color: #248a83; }
+  .search-header fieldset input[type="search"] {
+    border: none;
+    width: 0px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 1rem; }
+    .search-header fieldset input[type="search"]:focus {
+      outline: none; }
+
+.menu-menu-1-container li {
+  padding-top: 5px; }
 
 .home .site-content {
   padding-top: 0; }

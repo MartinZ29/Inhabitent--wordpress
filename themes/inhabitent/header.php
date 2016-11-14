@@ -34,7 +34,7 @@
 						<nav id="site-navigation" class="main-navigation" role="navigation">
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-							<div class = "search-hearder"><?php get_search_form(); ?></div>
+							<div class = "search-header"><?php get_search_form(); ?></div>
 						</nav><!-- #site-navigation -->
 					</div>
 				</div> <!-- container -->
