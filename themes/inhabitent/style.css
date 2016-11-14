@@ -820,7 +820,8 @@ object {
         height: 250px; }
       .journal-list .post-list .post-list-info .post-brief-info {
         padding: 0.75rem;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        position: relative; }
         .journal-list .post-list .post-list-info .post-brief-info p {
           font-size: 0.75rem;
           margin-bottom: 0; }
@@ -831,9 +832,15 @@ object {
           .journal-list .post-list .post-list-info .post-brief-info h2 a {
             color: #248a83;
             text-decoration: none; }
-        .journal-list .post-list .post-list-info .post-brief-info .post-list-button {
-          text-decoration: none;
-          text-transform: uppercase; }
+      .journal-list .post-list .post-list-info .post-list-button {
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid #000;
+        padding: 0.75rem 1.5rem;
+        color: black;
+        position: absolute;
+        bottom: 0.75rem;
+        left: 0.75rem; }
 
 .site-content {
   padding-top: 50px; }

@@ -40,8 +40,8 @@ $terms = get_terms('product_type');
             <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
             <div class="post-brief-info"><p><?php the_date(); ?> / 
             <?php comments_number(); ?></p>
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
-            <a href="<?php the_permalink(); ?>" class="post-list-button">Read Entry</a>
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <a href="<?php the_permalink(); ?>" class="post-list-button">Read Entry</a></div>
         </div>
         <?php endforeach; wp_reset_postdata(); ?>
     </div>
