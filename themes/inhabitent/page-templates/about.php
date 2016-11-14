@@ -11,16 +11,16 @@ get_header(); ?>
         </div>
         <div class="container">
             <div class="about-content">
-                <?php
+                <h2><?php
                 $props = CFS()->get_field_info('our_story');
                 echo $props['label'];
-                ?>
+                ?></h2>
                 <?php echo CFS()->get( 'our_story'); ?>
 
-                <?php
+                <h2><?php
                 $props = CFS()-> get_field_info('our_team');
                 echo $props['label'];
-                ?>
+                ?></h2>
                 <?php echo CFS()->get( 'our_team'); ?>
            </div>
         </div>
