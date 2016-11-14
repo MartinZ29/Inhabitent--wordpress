@@ -21,17 +21,32 @@ function red_starter_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
 
+//  login logo  
 function my_login_logo(){  ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
             background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/inhabitent-logo-text-dark.svg);
             padding-bottom: 30px;
+            background-size:280px;
+            width:280px;
+            background-position:bottom;
         }
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
+// login url
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+function my_login_logo_url_title() {
+    return 'Inhabitent';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
+
+// about img!!!!
 function my_style_methor(){
 	if(!is_page_template('about.php')){
 		return;
@@ -47,7 +62,7 @@ function my_style_methor(){
 add_action('wp_enqueue_scripts','my_style_method');
 
 
-
+// archive post style
 
 function get_all_product_posts($query){
     if(is_post_type_archive('product') && !is_admin() && $query->is_main_query() ){
@@ -64,8 +79,7 @@ function get_all_product_posts($query){
 add_action('pre_get_posts','get_all_product_posts');
 
 
-/**
-*	Set custom archive title
+/**	Set custom archive title
 */ 
 function display_custom_archive_title ($title) {
 	if (is_post_type_archive ('product' )) {
