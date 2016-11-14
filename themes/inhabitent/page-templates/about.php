@@ -8,7 +8,7 @@
 get_header(); ?>
 <div class="content-container">
 
-        <div class="about-hero-banner"></div>
+        <div class="about-img"></div>
 
             <div class="about-content">
                 <?php
