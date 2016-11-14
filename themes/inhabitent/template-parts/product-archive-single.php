@@ -5,12 +5,14 @@
  * @package RED_Starter_Theme
  */
 ?>
-<div class = "single-product-content">
-	<?php if ( has_post_thumbnail() ) : ?>
-	<?php the_post_thumbnail( 'large' ); ?>
-	<?php endif; ?>
+<article class = "single-product-content">
+    <div class="single-product-img">
+	    <?php if ( has_post_thumbnail() ) : ?>
+	    <?php the_post_thumbnail( 'large' ); ?>
+	    <?php endif; ?>
+    </div>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="single-product-info" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	    <header class="entry-header">
 		    <?php the_title( sprintf( '<h1 class="entry-title">', '</h1>' )); ?>
 	    </header><!-- .entry-header -->
@@ -34,5 +36,5 @@
 				<i class="fa fa-pinterest" aria-hidden="true"> pin </i>
 			</button> 
 		</div>
-    </article><!-- #post-## -->
-</div>
+    </div><!-- #post-## -->
+</article>
