@@ -1027,6 +1027,7 @@ object {
         padding: 0.75rem 1.5rem;
         background: white;
         text-transform: uppercase;
-        border-radius: 0; }
+        border-radius: 0;
+        font-size: 0.9rem; }
         .single-product-content .single-product-info .social-buttons .social-btn i {
           margin-right: 10px; }
