@@ -33,12 +33,12 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 
 function my_style_methor(){
-	if(!is_page_template('page-about.php')){
+	if(!is_page_template('about.php')){
 		return;
 	}
 
-	$url = CFS()->get('#about_image');
-	$custom_css = ".about-hero-banner{bakcground-image:url({$url});}";
+	$url = CFS()->get('about_image');
+	$custom_css = ".about-hero-banner{background-image:liner-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url({$url});}";
 	wp_add_inline_style('red-starter-style',$cunstom_css);
 	
 }
