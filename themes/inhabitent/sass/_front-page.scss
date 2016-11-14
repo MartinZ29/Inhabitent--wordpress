@@ -117,6 +117,19 @@
     .adventure {
         display: flex;
     }
+    .more-adv {
+        margin-top: 2rem;
+        a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        background: #248a83;
+        border: none;
+        border-radius: 0;
+        padding: 0.75rem 1.5rem;
+        color: white;
+        }
+    }
 }
 
 .first-adv {

@@ -69,7 +69,7 @@ $terms = get_terms('product_type');
             <div class="button"><a href="#"> read more </a></div> 
         </div>
     </div>
-    <div><a href = "#">More Adventures</a></div>
+    <div class="more-adv"><a href = "#">More Adventures</a></div>
 
 </section>
 
