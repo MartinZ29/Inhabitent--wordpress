@@ -1020,5 +1020,13 @@ object {
       margin-top: 0; }
     .single-product-content .single-product-info .entry-content p {
       line-height: 1.75; }
-    .single-product-content .single-product-info .social-button {
+    .single-product-content .single-product-info .social-buttons {
       margin: 1.5rem 0; }
+      .single-product-content .single-product-info .social-buttons .social-btn {
+        border: 1px solid #000;
+        padding: 0.75rem 1.5rem;
+        background: white;
+        text-transform: uppercase;
+        border-radius: 0; }
+        .single-product-content .single-product-info .social-buttons .social-btn i {
+          margin-right: 10px; }

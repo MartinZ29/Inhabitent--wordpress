@@ -27,13 +27,13 @@
 	    </div><!-- .entry-content -->
         <div class = "social-buttons">
 			<button type = "button" class = "social-btn">
-				<i class="fa fa-facebook" aria-hidden="true"> like </i>
+				<i class="fa fa-facebook" aria-hidden="true"></i> like
 			</button> 
 			<button type = "button" class = "social-btn">
-				<i class="fa fa-twitter" aria-hidden="true"> tweet </i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>tweet
 			</button> 
 			<button type = "button" class = "social-btn">
-				<i class="fa fa-pinterest" aria-hidden="true"> pin </i>
+				<i class="fa fa-pinterest" aria-hidden="true"></i> pin
 			</button> 
 		</div>
     </div><!-- #post-## -->
