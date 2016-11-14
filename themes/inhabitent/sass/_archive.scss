@@ -53,15 +53,26 @@
             padding: 0.75rem 1rem;
             .entry-title {
                 display: inline;
-                padding-top: 4px;
+                padding-right: 4px;
                 text-transform: none;
+                background: white;
+                ::before {
+                    float: left;
+                    width: 0;
+                    white-space: nowrap;
+                    content: "..................................";
+                }
                 a {
                     text-decoration: none;
                     color: #2f1339;
                     font-weight: 400;                    
                 }
-
             }
+            span {
+                float: right;
+                background: white;
+                padding-left: 4px;
+                }
         }
     }
 }
