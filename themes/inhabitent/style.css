@@ -1213,11 +1213,23 @@ input, textarea {
   box-shadow: none;
   cursor: pointer; }
 
+.page-id-74 .site-content {
+  padding-top: 0; }
+
 .about_image {
   text-transform: uppercase;
-  background-size: cover; }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background-size: cover;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .about_image h1 {
-    font-size: 3rem; }
+    font-size: 3rem;
+    color: white; }
 
 .about-content {
   margin: 3rem auto;

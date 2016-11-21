@@ -36,11 +36,21 @@
     }
 }
 
+.page-id-74 .site-content {
+    padding-top: 0;
+}
+
 .about_image {
     text-transform: uppercase;
+    background:linear-gradient( to bottom, rgba(0,0,0,.4) 0%,rgba(0,0,0,.4) 100%);
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     h1 {
         font-size: 3rem;
+        color: white;
     }
 }
 .about-content {
