@@ -779,7 +779,8 @@ object {
     .site-header .container .top-menu {
       text-transform: uppercase; }
       .site-header .container .top-menu a {
-        color: #248a83; }
+        color: #248a83;
+        font-family: 'novecentosansweb', sans-serif; }
       .site-header .container .top-menu li {
         margin-right: 1rem; }
 
@@ -837,7 +838,7 @@ object {
       border: 1px solid #e1e1e1;
       -ms-flex: 0 1 23.5%;
           flex: 0 1 23.5%;
-      padding: 1rem;
+      padding: 0.75rem;
       border-top-width: 5px; }
       .shop-list .shop-items .product-type img {
         height: 70px;
