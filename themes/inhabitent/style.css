@@ -264,11 +264,11 @@ th {
   font-weight: normal;
   font-style: normal; }
 
-h1, h2, h3 {
+h1, h2, h3, a {
   font-family: 'novecentosansweb',sans-serif;
   font-weight: normal; }
 
-p, a {
+p {
   font-family: 'merriweather';
   font-weight: normal; }
 
@@ -779,8 +779,7 @@ object {
     .site-header .container .top-menu {
       text-transform: uppercase; }
       .site-header .container .top-menu a {
-        color: #248a83;
-        font-family: 'novecentosansweb', sans-serif; }
+        color: #248a83; }
       .site-header .container .top-menu li {
         margin-right: 1rem; }
 
@@ -849,7 +848,8 @@ object {
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         text-transform: uppercase;
-        cursor: pointer; }
+        cursor: pointer;
+        font-family: 'novecentosansweb', sans-serif; }
 
 .journal-list {
   margin-bottom: 4.5rem; }
@@ -883,7 +883,9 @@ object {
           margin-top: 0; }
           .journal-list .post-list .post-list-info .post-brief-info h2 a {
             color: #248a83;
-            text-decoration: none; }
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 2px; }
       .journal-list .post-list .post-list-info .post-list-button {
         text-decoration: none;
         text-transform: uppercase;
@@ -892,7 +894,9 @@ object {
         color: black;
         position: absolute;
         bottom: 0.75rem;
-        left: 0.75rem; }
+        left: 0.75rem;
+        font-size: 0.9rem;
+        line-height: 1; }
 
 .latest-adventure {
   height: 100vh;
