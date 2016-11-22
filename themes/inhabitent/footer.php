@@ -29,9 +29,9 @@
 					</div><!-- contact-info -->
 					<div class="business-hour">
 						<h2>business hours</h2>
-						<p><span>Monday-Friday</span> 9am to 5am</p>
-						<p><span>Saturday</span> 10am to 2pm</p>
-						<p><span>Sunday</span> Closed</p>
+						<p><span>Monday-Friday:</span> 9am to 5am</p>
+						<p><span>Saturday:</span> 10am to 2pm</p>
+						<p><span>Sunday:</span> Closed</p>
 					</div>
 					<div class="footer-logo">
 						<a href="#"><img class="footer-img-logo" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg" alt="inhabitent-footer-logo"></a>
