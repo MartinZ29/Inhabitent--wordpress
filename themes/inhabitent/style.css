@@ -1076,6 +1076,14 @@ input, textarea {
   text-decoration: none;
   color: #248a83; }
 
+.contact-inf-class i {
+  margin-right: 0.5rem;
+  width: 20px; }
+
+.contact-inf-class .cont-add {
+  display: -ms-flexbox;
+  display: flex; }
+
 .archive-header {
   border-bottom: 1px dashed #c8c8c8;
   margin-bottom: 3rem;
