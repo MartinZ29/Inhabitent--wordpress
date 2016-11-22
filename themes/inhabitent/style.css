@@ -777,6 +777,7 @@ object {
   .search-header fieldset a, .search-header fieldset label {
     float: left; }
   .search-header fieldset .search-field {
+    background: transparent;
     border: none;
     width: 0px;
     padding: 0;
