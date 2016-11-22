@@ -16,7 +16,7 @@
 
 <?php if( strlen( trim( $address )) > 0) : ?>
 <p class="cont-add">
-    <i class="fa fa-map-marker" aria-hidden="true"></i><span> <?php echo $address; ?></span> 
+    <i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $address; ?>
 </p>
 
 <?php endif; ?>
