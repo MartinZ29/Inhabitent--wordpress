@@ -774,8 +774,6 @@ object {
   .search-header fieldset .fa {
     font-size: 1.2rem;
     color: #248a83; }
-  .search-header fieldset button {
-    visibility: hidden; }
   .search-header fieldset input[type="search"] {
     border: none;
     width: 0px;
