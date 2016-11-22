@@ -32,7 +32,10 @@
 	    font-size: 1.2rem;
 		color: #248a83;
 	}
-	input[type="search"] {
+    a, label {
+        float: left;
+    }
+	.search-field {
 		border:none;
 		width: 0px;
 		padding: 0;
