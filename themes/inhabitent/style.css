@@ -266,7 +266,9 @@ th {
 
 h1, h2, h3, a {
   font-family: 'novecentosansweb',sans-serif;
-  font-weight: normal;
+  font-weight: normal; }
+
+h1, h2, h3 {
   letter-spacing: 2px; }
 
 p {
@@ -894,7 +896,8 @@ object {
           .journal-list .post-list .post-list-info .post-brief-info h2 a {
             color: #248a83;
             text-decoration: none;
-            font-weight: bold; }
+            font-weight: bold;
+            letter-spacing: 2px; }
       .journal-list .post-list .post-list-info .post-list-button {
         text-decoration: none;
         text-transform: uppercase;
