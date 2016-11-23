@@ -1,67 +1,55 @@
-
-.site-content {
-    padding-top: 50px;
-    .content-area {
-        padding: 3rem 0;
-        .post {
-            margin-bottom: 4.5rem;
-            .entry-header {
-                position: relative;
-                line-height: 0;
-                .wp-post-image {
-                    width: 100%;
-                    height: auto;
-                }
-                h1 {
-                    font-weight: bold;
-                }
-                .entry-title {
-                    position: absolute;
-                    font-size: 2.1rem;
-                    background-color: #248a83;
-                    margin-top: 2.25rem;
-                    max-width: 75%;
-                    left: 0;
-                    top: 0;
-                    padding: 0.75rem 1.5rem;
-                    line-height: 1.25;
-                    color: white;
-                    text-transform: uppercase;
-                    a {
-                        color: white;
-                        text-decoration: none;
-                        text-transform: uppercase;
-                        font-weight: bold;
-                    }
-                }
-                .entry-meta {
-                    position: absolute;
-                    background-color: #248a83;
-                    right: 0;
-                    bottom: 0;
-                    padding: 1rem 1.5rem;
-                    text-transform: uppercase;
-                    color: white;
-                    font-size: 0.9rem;
-                    font-family: 'novecentosansweb';
+.post {
+    margin-bottom: 4.5rem;
+    .entry-header {
+        position: relative;
+        line-height: 0;
+        .wp-post-image {
+            width: 100%;
+            height: auto;
+            }
+            h1 {
+                font-weight: bold;
+                text-align: left;
+            }
+        .entry-title {
+            position: absolute;
+            font-size: 2.1rem;
+            background-color: #248a83;
+            margin-top: 2.25rem;
+            max-width: 75%;
+            left: 0;
+            top: 0;
+            padding: 0.75rem 1.5rem;
+            line-height: 1.25;
+            color: white;
+            text-transform: uppercase;
+            a {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
                 }
             }
-            .entry-content {
-                .BodyA {
-                    line-height: 1.75;
-                }
-                a {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    border: 1px solid #000;
-                    padding: 0.75rem 1.5rem;
-                    color: #000;
-                    font-size: 0.9rem;
-                }
+        .entry-meta {
+            position: absolute;
+            background-color: #248a83;
+            right: 0;
+            bottom: 0;
+            padding: 1rem 1.5rem;
+            text-transform: uppercase;
+            color: white;
+            font-size: 0.9rem;
+            font-family: 'novecentosansweb';
             }
         }
-    }
-}
+         .entry-content {
+            .BodyA {
+                line-height: 1.75;
+            }
+            a {
+                @include black-btn;
+            }
+        }
+ }
 
 .comments-link a {
     text-decoration: none;
@@ -70,21 +58,66 @@
 
 .entry-footer {
     .cat-links {
-        margin-right: 1.5rem;
-        display: inline-block;
-        text-transform: uppercase;
-        a {
-            color: #248a83;
-            text-decoration: none;
-        }
+        @include cat-link;
     }
     .tags-links {
-        margin-right: 1.5rem;
-        display: inline-block;
-        text-transform: uppercase;
-        a {
+        @include cat-link;
+    }
+}
+
+/*  for comments here !!!*/
+
+.comments-area {
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.25;
+        color: #2f1339;
+        margin-bottom: 0;
+    }
+    .comment-list {
+        padding-left: 0;
+        margin-left: 0;
+        .comment {
+            padding-top: 1.5rem;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .comment-body {
+            padding-bottom: 1.5rem;
+            display: flex;
+        }
+        .comment-author-avatar {
+            height: 64px;
+            width: 64px;
+            margin-right: 1.5rem;
+            border-radius: 50%;
+        }
+        .comment-author .fn {
+            font-weight: bold;
+            font-style: normal;
+        }
+        .comment-metadata {
+            color: gray;
+            margin-bottom: 0.75rem;
+            font-family: 'merriweather', serif;
+            a {
+                color: #248a83;
+            }
+        }
+        .children {
+            margin-bottom: 0;
+            margin-left: 1.5rem;
+            li {
+                border-top: 1px solid #e1e1e1;
+                display: block;
+            }
+        }
+        p {
+            margin-bottom: 0.75rem;
+        }
+        .reply a {
             color: #248a83;
-            text-decoration: none;
+            font-family: 'merriweather', serif;
         }
     }
 }
@@ -93,19 +126,19 @@
 .comment-respond {
     h3 {
         font-size: 1.8rem;
+        font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 2px;
+        a {
+            font-family: 'novecentosansweb', sans-serif;
+            font-weight: bold;
+            color: #248a83;
+        }
     }
     .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
         label {
-            color: #2f1339;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-            display: block;
-            .required {
-                color: #d99054;
-            }
+            @include comment-title;
+            font-family: 'novecentosansweb', sans-serif;
         }
         input {
             width: 100%;
@@ -123,29 +156,18 @@
     }
     .form-submit {
         .submit {
-            font-size: 0.9rem;
-            background: #248a83;
-            border: none;
-            border-radius: 0;
-            padding: 0.75rem 1.5rem;
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
+            @include green-btn;
             box-shadow: none;
-            cursor: pointer;
         }
     }
 }
 
 input, textarea {
-    color: #666;
-    background-color: #f4f4f4;
-    border: 1px solid #e1e1e1;
-    border-radius: 0;
+    @include input;
 }
 
 
 .about_image {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }

@@ -36,6 +36,7 @@
 	font-family: 'novecentosansweb', sans-serif;
 	font-weight: normal;
 	cursor:pointer;
+	text-shadow: none;
 }
 
 @mixin white-btn {
@@ -69,4 +70,25 @@
 	line-height: 1.75;
 	font-family: 'merriweather', serif;
 	padding: 0.3rem;
+}
+
+@mixin cat-link {
+	margin-right: 1.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+    a {
+        color: #248a83;
+        text-decoration: none;
+    }
+}
+
+@mixin comment-title {
+	color: #2f1339;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+    .required {
+        color: #d99054;
+    }
 }
