@@ -1,9 +1,9 @@
 .post-126 {
     .entry-header {
         h1 {
-            font-size: 2.4rem;
+            text-align: left;
             margin: 0 0 0.5rem 0;
-            text-transform: uppercase;
+            font-weight: bold;
         }
     }
     .entry-content {
@@ -12,26 +12,18 @@
             color: #2f1339;
             margin-bottom: 1.5rem;
             text-transform: uppercase;
+            font-weight: bold;
+        }
+        p {
+            line-height: 1.75;
         }
         .contactform {
-            color: #2f1339;
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            text-transform: uppercase;
-            .required {
-                color: #d99054;
-            }
+            @include comment-title;
+            font-family: 'novecentosansweb', sans-serif;
         }
         .wpcf7-submit {
-            background: #248a83;
-            border: none;
-            border-radius: 0;
-            color: white;
-            font-size: 0.9rem;
-            padding: 0.75rem 1.5rem;
-            text-transform: uppercase;
+            @include green-btn;
             box-shadow: none;
-            cursor: pointer;
         }
     }
 }

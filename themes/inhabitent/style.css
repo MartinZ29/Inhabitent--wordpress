@@ -870,6 +870,7 @@ object {
         background: #248a83;
         color: #fff;
         border: none;
+        border-radius: 0;
         font-size: 0.9rem;
         line-height: 1;
         padding: 0.75rem 1.5rem;
@@ -953,6 +954,7 @@ object {
       background: #248a83;
       color: #fff;
       border: none;
+      border-radius: 0;
       font-size: 0.9rem;
       line-height: 1;
       padding: 0.75rem 1.5rem;
@@ -1132,6 +1134,7 @@ object {
   background: #248a83;
   color: #fff;
   border: none;
+  border-radius: 0;
   font-size: 0.9rem;
   line-height: 1;
   padding: 0.75rem 1.5rem;
@@ -1316,34 +1319,45 @@ input, textarea {
   max-width: 800px; }
 
 .post-126 .entry-header h1 {
-  font-size: 2.4rem;
+  text-align: left;
   margin: 0 0 0.5rem 0;
-  text-transform: uppercase; }
+  font-weight: bold; }
 
 .post-126 .entry-content h2 {
   font-size: 2.1rem;
   color: #2f1339;
   margin-bottom: 1.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.post-126 .entry-content p {
+  line-height: 1.75; }
 
 .post-126 .entry-content .contactform {
   color: #2f1339;
   font-size: 1.1rem;
+  text-transform: uppercase;
   margin-bottom: 0.5rem;
-  text-transform: uppercase; }
+  display: block;
+  font-family: 'novecentosansweb', sans-serif; }
   .post-126 .entry-content .contactform .required {
     color: #d99054; }
 
 .post-126 .entry-content .wpcf7-submit {
   background: #248a83;
+  color: #fff;
   border: none;
   border-radius: 0;
-  color: white;
   font-size: 0.9rem;
+  line-height: 1;
   padding: 0.75rem 1.5rem;
+  text-decoration: none;
   text-transform: uppercase;
-  box-shadow: none;
-  cursor: pointer; }
+  font-family: 'novecentosansweb', sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: none;
+  box-shadow: none; }
 
 .page-id-74 .site-content {
   padding-top: 0; }
