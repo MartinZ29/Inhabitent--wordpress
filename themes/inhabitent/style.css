@@ -1447,3 +1447,45 @@ object {
     font-weight: bold; }
   .about-content p {
     line-height: 1.75; }
+
+.not-found h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: bold; }
+
+.not-found .page-content fieldset {
+  border: 0;
+  padding: 0;
+  padding-bottom: 0.75rem;
+  margin: 0; }
+  .not-found .page-content fieldset .icon-search {
+    display: none; }
+  .not-found .page-content fieldset input {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-family: 'merriweather', serif;
+    padding: 0.3rem; }
+
+.not-found h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.not-found ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 1.75;
+  font-family: 'merriweather', serif; }
+  .not-found ul a {
+    color: #248a83;
+    font-family: 'merriweather', serif; }
+
+.not-found select {
+  font-family: 'merriweather', serif; }
