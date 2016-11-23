@@ -970,6 +970,8 @@ object {
         .site-content .content-area .post .entry-header .wp-post-image {
           width: 100%;
           height: auto; }
+        .site-content .content-area .post .entry-header h1 {
+          font-weight: bold; }
         .site-content .content-area .post .entry-header .entry-title {
           position: absolute;
           font-size: 2.1rem;
@@ -1133,7 +1135,8 @@ input, textarea {
   text-transform: uppercase; }
   .archive-header .page-title {
     margin-top: 0;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    font-weight: bold; }
   .archive-header .shop-stuff-list {
     display: -ms-flexbox;
     display: flex;
@@ -1179,17 +1182,16 @@ input, textarea {
       .archive-area .product-item .item-price .entry-title {
         display: inline;
         padding-right: 4px;
-        text-transform: none;
-        background: white; }
-        .archive-area .product-item .item-price .entry-title ::before {
-          float: left;
-          width: 0;
-          white-space: nowrap;
-          content: ".................................."; }
-        .archive-area .product-item .item-price .entry-title a {
-          text-decoration: none;
-          color: #2f1339;
-          font-weight: 400; }
+        background: white;
+        color: #2f1339;
+        font-weight: 400;
+        letter-spacing: 0;
+        font-size: 1rem; }
+      .archive-area .product-item .item-price h3::before {
+        float: left;
+        width: 0;
+        white-space: nowrap;
+        content: "......................................................"; }
       .archive-area .product-item .item-price span {
         font-size: 0.9rem;
         float: right;
