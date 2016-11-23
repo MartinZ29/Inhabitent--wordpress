@@ -275,6 +275,14 @@ p {
   font-family: 'merriweather';
   font-weight: normal; }
 
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 1.3rem; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -833,10 +841,7 @@ object {
 .shop-list {
   margin-bottom: 4.5rem; }
   .shop-list h1 {
-    font-size: 2.5rem;
-    margin-bottom: 3.5rem;
-    text-align: center;
-    text-transform: uppercase; }
+    margin-bottom: 3.5rem; }
   .shop-list .shop-items {
     display: -ms-flexbox;
     display: flex;
@@ -855,20 +860,21 @@ object {
         width: 70px; }
       .shop-list .shop-items .product-type .shop-botton {
         background: #248a83;
-        color: white;
+        color: #fff;
+        border: none;
+        font-size: 0.9rem;
+        line-height: 1;
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         text-transform: uppercase;
-        cursor: pointer;
-        font-family: 'novecentosansweb', sans-serif; }
+        font-family: 'novecentosansweb', sans-serif;
+        font-weight: normal;
+        cursor: pointer; }
 
 .journal-list {
   margin-bottom: 4.5rem; }
   .journal-list h1 {
-    font-size: 2.5rem;
-    margin-bottom: 3.75rem;
-    text-align: center;
-    text-transform: uppercase; }
+    margin-bottom: 3.75rem; }
   .journal-list .post-list {
     display: -ms-flexbox;
     display: flex;
@@ -898,49 +904,55 @@ object {
             font-weight: bold;
             letter-spacing: 2px; }
       .journal-list .post-list .post-list-info .post-list-button {
-        text-decoration: none;
-        text-transform: uppercase;
+        background: transparent;
+        color: #000;
         border: 1px solid #000;
+        border-radius: 0;
+        font-size: 0.9rem;
         padding: 0.75rem 1.5rem;
-        color: black;
+        line-height: 1;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'novecentosansweb', sans-serif;
         position: absolute;
         bottom: 0.75rem;
-        left: 0.75rem;
-        font-size: 0.9rem;
-        line-height: 1; }
+        left: 0.75rem; }
 
 .latest-adventure {
   height: 100vh;
   margin-bottom: 5%; }
-  .latest-adventure h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2.5rem; }
-    .latest-adventure h1 a {
-      text-decoration: none;
-      color: white;
-      font-family: 'merriweather'; }
+  .latest-adventure a {
+    text-decoration: none;
+    color: white;
+    font-family: 'merriweather'; }
   .latest-adventure .adventure {
     display: -ms-flexbox;
     display: flex; }
     .latest-adventure .adventure .button a {
+      border: 1px solid white;
+      border-radius: 0;
+      color: white;
+      font-size: 0.9rem;
+      line-height: 1;
       text-decoration: none;
       text-transform: uppercase;
-      border: 1px solid white;
       padding: 0.75rem 1.5rem;
-      color: white;
-      font-size: 0.9rem; }
+      font-family: 'novecentosansweb', sans-serif; }
   .latest-adventure .more-adv {
     margin-top: 2rem; }
     .latest-adventure .more-adv a {
+      background: #248a83;
+      color: #fff;
+      border: none;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0.75rem 1.5rem;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 1.2rem;
-      background: #248a83;
-      border: none;
-      border-radius: 0;
-      padding: 0.75rem 1.5rem;
-      color: white; }
+      font-family: 'novecentosansweb', sans-serif;
+      font-weight: normal;
+      cursor: pointer;
+      font-size: 1.2rem; }
 
 .first-adv {
   background-image: url("../../images/adventure-photos/canoe-girl.jpg");
