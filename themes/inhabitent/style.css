@@ -905,12 +905,10 @@ object {
           font-size: 0.75rem;
           margin-bottom: 0; }
         .journal-list .post-list .post-list-info .post-brief-info h2 {
-          font-size: 1.3rem;
           margin-bottom: 3.75rem;
           margin-top: 0; }
           .journal-list .post-list .post-list-info .post-brief-info h2 a {
             color: #248a83;
-            text-decoration: none;
             font-weight: bold;
             letter-spacing: 2px; }
       .journal-list .post-list .post-list-info .post-list-button {
@@ -932,7 +930,6 @@ object {
   height: 100vh;
   margin-bottom: 5%; }
   .latest-adventure a {
-    text-decoration: none;
     color: white;
     font-family: 'merriweather'; }
   .latest-adventure .adventure {
