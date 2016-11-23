@@ -1153,10 +1153,6 @@ input, textarea {
   font-family: 'merriweather', serif;
   padding: 0.3rem; }
 
-.about_image {
-  height: 100vh;
-  width: 100vw; }
-
 .content-container {
   width: 1120px;
   display: -ms-flexbox;
@@ -1356,6 +1352,7 @@ input, textarea {
   text-transform: uppercase;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1364,7 +1361,9 @@ input, textarea {
       align-items: center; }
   .about_image h1 {
     font-size: 3rem;
-    color: white; }
+    color: white;
+    font-weight: bold;
+    margin-top: 0; }
 
 .about-content {
   margin: 3rem auto;
@@ -1373,4 +1372,7 @@ input, textarea {
     text-align: center;
     font-size: 2.1rem;
     margin-bottom: 1.5rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold; }
+  .about-content p {
+    line-height: 1.75; }
