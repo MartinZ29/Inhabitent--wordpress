@@ -932,19 +932,16 @@ object {
   .latest-adventure a {
     color: white;
     font-family: 'merriweather'; }
-  .latest-adventure .adventure {
-    display: -ms-flexbox;
-    display: flex; }
-    .latest-adventure .adventure .button a {
-      border: 1px solid white;
-      border-radius: 0;
-      color: white;
-      font-size: 0.9rem;
-      line-height: 1;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding: 0.75rem 1.5rem;
-      font-family: 'novecentosansweb', sans-serif; }
+  .latest-adventure .adventure .button a {
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    font-family: 'novecentosansweb', sans-serif; }
   .latest-adventure .more-adv {
     margin-top: 2rem; }
     .latest-adventure .more-adv a {
@@ -964,20 +961,75 @@ object {
       font-size: 1.2rem; }
 
 .first-adv {
-  background-image: url("../../images/adventure-photos/canoe-girl.jpg");
-  background-size: cover; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4) 100%), url("../../images/adventure-photos/canoe-girl.jpg");
+  background-size: cover;
+  background-position: center; }
 
 .second-adv {
-  background-image: url("../../images/adventure-photos/beach-bonfire.jpg");
-  background-size: cover; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4) 100%), url("../../images/adventure-photos/beach-bonfire.jpg");
+  background-size: cover;
+  background-position: bottom; }
 
 .third-adv {
-  background-image: url("../../images/adventure-photos/mountain-hikers.jpg");
-  background-size: cover; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4) 100%), url("../../images/adventure-photos/mountain-hikers.jpg");
+  background-size: cover;
+  background-position: bottom; }
 
 .fourth-adv {
-  background-image: url("../../images/adventure-photos/night-sky.jpg");
-  background-size: cover; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4) 100%), url("../../images/adventure-photos/night-sky.jpg");
+  background-size: cover;
+  background-position: bottom; }
+
+.adventure {
+  display: -ms-flexbox;
+  display: flex;
+  height: 540px; }
+  .adventure .button {
+    padding-left: 1.5rem; }
+  .adventure .first-adv {
+    width: 50%;
+    border-right: 20px solid white; }
+    .adventure .first-adv h1 {
+      font-size: 3rem;
+      text-align: left;
+      margin: 1.5rem;
+      text-transform: none; }
+  .adventure .second-adv {
+    height: 50%;
+    border-bottom: 20px solid white; }
+    .adventure .second-adv h1 {
+      font-size: 2.4rem;
+      text-transform: none;
+      text-align: left;
+      margin: 1.5rem; }
+  .adventure .third-adv {
+    width: 50%;
+    border-right: 10px solid white; }
+    .adventure .third-adv h1 {
+      font-size: 1.6rem;
+      text-transform: none;
+      margin: 1.5rem;
+      text-align: left; }
+  .adventure .fourth-adv {
+    width: 50%;
+    border-left: 10px solid white; }
+    .adventure .fourth-adv h1 {
+      font-size: 1.6rem;
+      text-transform: none;
+      margin: 1.5rem;
+      text-align: left; }
+  .adventure .right {
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .adventure .right .bot-ad {
+      height: 50%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 .post {
   margin-bottom: 4.5rem; }

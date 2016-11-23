@@ -94,11 +94,8 @@
         color: white;
         font-family: 'merriweather';
     }
-    .adventure {
-        display: flex;
-        .button a {
+    .adventure .button a {
             @include white-btn;
-        }
     }
     .more-adv {
         margin-top: 2rem;
@@ -110,18 +107,82 @@
 }
 
 .first-adv {
-    background-image: url('../../images/adventure-photos/canoe-girl.jpg');
+    background-image:linear-gradient(to bottom, rgba(0,0,0,.4) 0,rgba(0,0,0,.4) 100%), url('../../images/adventure-photos/canoe-girl.jpg');
     background-size: cover;
+    background-position: center;
 }
 .second-adv {
-    background-image: url('../../images/adventure-photos/beach-bonfire.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0,rgba(0,0,0,.4) 100%), url('../../images/adventure-photos/beach-bonfire.jpg');
     background-size: cover;
+    background-position: bottom;
 }
 .third-adv {
-    background-image: url('../../images/adventure-photos/mountain-hikers.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0,rgba(0,0,0,.4) 100%), url('../../images/adventure-photos/mountain-hikers.jpg');
     background-size: cover;
+    background-position: bottom;
 }
 .fourth-adv {
-    background-image: url('../../images/adventure-photos/night-sky.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0,rgba(0,0,0,.4) 100%), url('../../images/adventure-photos/night-sky.jpg');
     background-size: cover;
+    background-position: bottom;
+}
+
+// need change flex box to float!!!!!!
+
+.adventure {
+    display: flex;
+    height: 540px;
+    .button {
+        padding-left: 1.5rem;
+    }
+    .first-adv {
+        width: 50%;
+        border-right: 20px solid white;
+        h1 {
+            font-size: 3rem;
+            text-align: left;
+            margin: 1.5rem;
+            text-transform: none;
+        }
+    }
+    .second-adv {
+        height:50%;
+        border-bottom: 20px solid white;
+        h1 {
+            font-size: 2.4rem;
+            text-transform: none;
+            text-align: left;
+            margin: 1.5rem;
+        }
+    }
+    .third-adv {
+        width: 50%;
+        border-right: 10px solid white;
+        h1 {
+            font-size: 1.6rem;
+            text-transform: none;
+            margin: 1.5rem;
+            text-align: left;
+        }
+    }
+    .fourth-adv {
+        width: 50%;
+        border-left: 10px solid white;
+        h1 {
+            font-size: 1.6rem;
+            text-transform: none;
+            margin: 1.5rem;
+            text-align: left;
+        }
+    }
+    .right {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        .bot-ad {
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+        }
+    }
 }
