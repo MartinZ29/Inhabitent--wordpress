@@ -1346,6 +1346,16 @@ object {
   .post-126 .entry-content .contactform .required {
     color: #d99054; }
 
+.post-126 .entry-content .wpcf7-form-control-wrap input {
+  color: #666;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-family: 'merriweather', serif;
+  padding: 0.3rem; }
+
 .post-126 .entry-content .wpcf7-submit {
   background: #248a83;
   color: #fff;

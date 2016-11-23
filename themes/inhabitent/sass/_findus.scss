@@ -21,6 +21,9 @@
             @include comment-title;
             font-family: 'novecentosansweb', sans-serif;
         }
+        .wpcf7-form-control-wrap input {
+            @include input;
+        }
         .wpcf7-submit {
             @include green-btn;
             box-shadow: none;
