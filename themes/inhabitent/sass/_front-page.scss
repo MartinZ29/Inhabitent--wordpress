@@ -155,9 +155,8 @@
             margin: 1.5rem;
         }
     }
-    .third-adv {
+    .third-adv, .fourth-adv {
         width: 50%;
-        border-right: 10px solid white;
         h1 {
             font-size: 1.6rem;
             text-transform: none;
@@ -165,15 +164,11 @@
             text-align: left;
         }
     }
+    .third-adv {
+        border-right: 10px solid white;
+    }
     .fourth-adv {
-        width: 50%;
         border-left: 10px solid white;
-        h1 {
-            font-size: 1.6rem;
-            text-transform: none;
-            margin: 1.5rem;
-            text-align: left;
-        }
     }
     .right {
         display: flex;

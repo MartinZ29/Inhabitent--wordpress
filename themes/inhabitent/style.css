@@ -1002,22 +1002,17 @@ object {
       text-transform: none;
       text-align: left;
       margin: 1.5rem; }
+  .adventure .third-adv, .adventure .fourth-adv {
+    width: 50%; }
+    .adventure .third-adv h1, .adventure .fourth-adv h1 {
+      font-size: 1.6rem;
+      text-transform: none;
+      margin: 1.5rem;
+      text-align: left; }
   .adventure .third-adv {
-    width: 50%;
     border-right: 10px solid white; }
-    .adventure .third-adv h1 {
-      font-size: 1.6rem;
-      text-transform: none;
-      margin: 1.5rem;
-      text-align: left; }
   .adventure .fourth-adv {
-    width: 50%;
     border-left: 10px solid white; }
-    .adventure .fourth-adv h1 {
-      font-size: 1.6rem;
-      text-transform: none;
-      margin: 1.5rem;
-      text-align: left; }
   .adventure .right {
     display: -ms-flexbox;
     display: flex;
