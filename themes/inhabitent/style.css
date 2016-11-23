@@ -1078,7 +1078,8 @@ object {
     border-radius: 50%; }
   .comments-area .comment-list .comment-author .fn {
     font-weight: bold;
-    font-style: normal; }
+    font-style: normal;
+    font-family: 'merriweather', serif; }
   .comments-area .comment-list .comment-metadata {
     color: gray;
     margin-bottom: 0.75rem;
@@ -1146,7 +1147,7 @@ object {
   text-shadow: none;
   box-shadow: none; }
 
-input, textarea {
+.comment-form input, textarea {
   color: #666;
   background-color: #f4f4f4;
   border: 1px solid #e1e1e1;

@@ -95,6 +95,7 @@
         .comment-author .fn {
             font-weight: bold;
             font-style: normal;
+            font-family: 'merriweather', serif;
         }
         .comment-metadata {
             color: gray;
@@ -162,6 +163,6 @@
     }
 }
 
-input, textarea {
+.comment-form input, textarea {
     @include input;
 }
