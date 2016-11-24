@@ -1,3 +1,5 @@
+![image](https://github.com/MartinZ29/inhabitent/blob/master/documentation/Screen%20Shot%202016-11-23%20at%2011.33.12%20PM.png)
+
 # Technology used
 
 HTML/ HTML5
