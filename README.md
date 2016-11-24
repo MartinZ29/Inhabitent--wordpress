@@ -1,10 +1,15 @@
 # Technology used
 
 HTML/ HTML5
+
 CSS/ CSS3
+
 SASS
+
 PHP
+
 JQuery
+
 WordPress
 
 #About Project
