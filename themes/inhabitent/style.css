@@ -1026,18 +1026,18 @@ object {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.post {
+.single .post, .blog .post {
   margin-bottom: 4.5rem; }
-  .post .entry-header {
+  .single .post .entry-header, .blog .post .entry-header {
     position: relative;
     line-height: 0; }
-    .post .entry-header .wp-post-image {
+    .single .post .entry-header .wp-post-image, .blog .post .entry-header .wp-post-image {
       width: 100%;
       height: auto; }
-    .post .entry-header h1 {
+    .single .post .entry-header h1, .blog .post .entry-header h1 {
       font-weight: bold;
       text-align: left; }
-    .post .entry-header .entry-title {
+    .single .post .entry-header .entry-title, .blog .post .entry-header .entry-title {
       position: absolute;
       font-size: 2.1rem;
       background-color: #248a83;
@@ -1049,11 +1049,11 @@ object {
       line-height: 1.25;
       color: white;
       text-transform: uppercase; }
-      .post .entry-header .entry-title a {
+      .single .post .entry-header .entry-title a, .blog .post .entry-header .entry-title a {
         color: white;
         text-transform: uppercase;
         font-weight: bold; }
-    .post .entry-header .entry-meta {
+    .single .post .entry-header .entry-meta, .blog .post .entry-header .entry-meta {
       position: absolute;
       background-color: #248a83;
       right: 0;
@@ -1063,9 +1063,9 @@ object {
       color: white;
       font-size: 0.9rem;
       font-family: 'novecentosansweb'; }
-  .post .entry-content .BodyA {
+  .single .post .entry-content .BodyA, .blog .post .entry-content .BodyA {
     line-height: 1.75; }
-  .post .entry-content a {
+  .single .post .entry-content a, .blog .post .entry-content a {
     background: transparent;
     color: #000;
     border: 1px solid #000;
@@ -1498,16 +1498,19 @@ object {
   padding-bottom: 1rem;
   border-bottom: 1px solid #e1e1e1; }
 
-.hentry {
+.search .hentry {
   margin-bottom: 4.5rem; }
-  .hentry h2 {
+  .search .hentry h2 {
     margin-top: 0;
     font-size: 2.1rem;
     text-transform: uppercase; }
-    .hentry h2 a {
+    .search .hentry h2 a {
       color: #248a83;
       font-weight: bold; }
-  .hentry .entry-summary a {
+  .search .hentry .entry-header {
+    position: none;
+    line-height: 1.75; }
+  .search .hentry .entry-summary a {
     background: transparent;
     color: #000;
     border: 1px solid #000;
@@ -1519,6 +1522,7 @@ object {
     text-decoration: none;
     font-family: 'novecentosansweb', sans-serif; }
 
+/*  search page bot number  !!!!!*/
 .search-pagination {
   border-top: 1px solid #e1e1e1;
   font-family: 'novecentosansweb', sans-serif;
