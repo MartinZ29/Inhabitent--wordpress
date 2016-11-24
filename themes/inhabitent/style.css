@@ -1027,18 +1027,18 @@ object {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.single .post, .blog .post {
+.single .post, .blog .post, .archive .post {
   margin-bottom: 4.5rem; }
-  .single .post .entry-header, .blog .post .entry-header {
+  .single .post .entry-header, .blog .post .entry-header, .archive .post .entry-header {
     position: relative;
     line-height: 0; }
-    .single .post .entry-header .wp-post-image, .blog .post .entry-header .wp-post-image {
+    .single .post .entry-header .wp-post-image, .blog .post .entry-header .wp-post-image, .archive .post .entry-header .wp-post-image {
       width: 100%;
       height: auto; }
-    .single .post .entry-header h1, .blog .post .entry-header h1 {
+    .single .post .entry-header h1, .blog .post .entry-header h1, .archive .post .entry-header h1 {
       font-weight: bold;
       text-align: left; }
-    .single .post .entry-header .entry-title, .blog .post .entry-header .entry-title {
+    .single .post .entry-header .entry-title, .blog .post .entry-header .entry-title, .archive .post .entry-header .entry-title {
       position: absolute;
       font-size: 2.1rem;
       background-color: #248a83;
@@ -1050,11 +1050,11 @@ object {
       line-height: 1.25;
       color: white;
       text-transform: uppercase; }
-      .single .post .entry-header .entry-title a, .blog .post .entry-header .entry-title a {
+      .single .post .entry-header .entry-title a, .blog .post .entry-header .entry-title a, .archive .post .entry-header .entry-title a {
         color: white;
         text-transform: uppercase;
         font-weight: bold; }
-    .single .post .entry-header .entry-meta, .blog .post .entry-header .entry-meta {
+    .single .post .entry-header .entry-meta, .blog .post .entry-header .entry-meta, .archive .post .entry-header .entry-meta {
       position: absolute;
       background-color: #248a83;
       right: 0;
@@ -1064,9 +1064,9 @@ object {
       color: white;
       font-size: 0.9rem;
       font-family: 'novecentosansweb'; }
-  .single .post .entry-content .BodyA, .blog .post .entry-content .BodyA {
+  .single .post .entry-content .BodyA, .blog .post .entry-content .BodyA, .archive .post .entry-content .BodyA {
     line-height: 1.75; }
-  .single .post .entry-content a, .blog .post .entry-content a {
+  .single .post .entry-content a, .blog .post .entry-content a, .archive .post .entry-content a {
     background: transparent;
     color: #000;
     border: 1px solid #000;
@@ -1495,7 +1495,7 @@ object {
   font-weight: bold; }
 
 /*   search  page  here   !!!!!!!*/
-.search .page-header {
+.search .page-header, .archive .page-header {
   margin-bottom: 3rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #e1e1e1; }
