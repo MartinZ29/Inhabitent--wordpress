@@ -1507,9 +1507,9 @@ object {
     .search .hentry h2 a {
       color: #248a83;
       font-weight: bold; }
-  .search .hentry .entry-header {
-    position: none;
-    line-height: 1.75; }
+  .search .hentry .entry-meta {
+    font-family: 'novecentosansweb', sans-serif;
+    text-transform: uppercase; }
   .search .hentry .entry-summary a {
     background: transparent;
     color: #000;

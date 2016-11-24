@@ -61,9 +61,9 @@
             font-weight: bold;
         }
     }
-    .entry-header {
-        position: none;
-        line-height: 1.75;
+    .entry-meta {
+        font-family: 'novecentosansweb', sans-serif;
+        text-transform: uppercase;
     }
     .entry-summary a {
         @include black-btn;
