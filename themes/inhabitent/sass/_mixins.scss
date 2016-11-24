@@ -22,6 +22,11 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: 'novecentosansweb', sans-serif;
+	&:hover {
+		color: white;
+    	background-color: #248a83;
+    	border: none;
+	}
 }
 
 @mixin green-btn {
@@ -38,6 +43,9 @@
 	font-weight: normal;
 	cursor:pointer;
 	text-shadow: none;
+	&:hover {
+		background-color: darken(#248a83, 10%)
+	}
 }
 
 @mixin white-btn {
@@ -50,6 +58,10 @@
 	text-transform: uppercase;
 	padding: 0.75rem 1.5rem;
 	font-family: 'novecentosansweb', sans-serif;
+	&:hover {
+		background-color: #248a83;
+		border: none;
+	}
 }
 
 @mixin social-btn {
@@ -60,6 +72,12 @@
 	text-transform: uppercase;
 	font-size: 0.9rem;
 	line-height: 1;
+	&:hover {
+		color: white;
+		background: #248a83;
+		border: none;
+		box-shadow: none;
+	}
 }
 
 @mixin input {

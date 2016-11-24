@@ -881,6 +881,8 @@ object {
         font-weight: normal;
         cursor: pointer;
         text-shadow: none; }
+        .shop-list .shop-items .product-type .shop-botton:hover {
+          background-color: #19625d; }
 
 .journal-list {
   margin-bottom: 4.5rem; }
@@ -926,6 +928,10 @@ object {
         position: absolute;
         bottom: 0.75rem;
         left: 0.75rem; }
+        .journal-list .post-list .post-list-info .post-list-button:hover {
+          color: white;
+          background-color: #248a83;
+          border: none; }
 
 .latest-adventure {
   height: 100vh;
@@ -943,6 +949,9 @@ object {
     text-transform: uppercase;
     padding: 0.75rem 1.5rem;
     font-family: 'novecentosansweb', sans-serif; }
+    .latest-adventure .adventure .button a:hover {
+      background-color: #248a83;
+      border: none; }
   .latest-adventure .more-adv {
     margin-top: 2rem; }
     .latest-adventure .more-adv a {
@@ -960,6 +969,8 @@ object {
       cursor: pointer;
       text-shadow: none;
       font-size: 1.2rem; }
+      .latest-adventure .more-adv a:hover {
+        background-color: #19625d; }
 
 .first-adv {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4) 100%), url("../../images/adventure-photos/canoe-girl.jpg");
@@ -1077,6 +1088,10 @@ object {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'novecentosansweb', sans-serif; }
+    .single .post .entry-content a:hover, .blog .post .entry-content a:hover, .archive .post .entry-content a:hover {
+      color: white;
+      background-color: #248a83;
+      border: none; }
 
 .comments-link a {
   text-decoration: none;
@@ -1192,6 +1207,8 @@ object {
   cursor: pointer;
   text-shadow: none;
   box-shadow: none; }
+  .comment-respond .form-submit .submit:hover {
+    background-color: #19625d; }
 
 .comment-form input, textarea {
   color: #666;
@@ -1364,6 +1381,11 @@ object {
     text-transform: uppercase;
     font-size: 0.9rem;
     line-height: 1; }
+    .social-buttons .social-btn:hover {
+      color: white;
+      background: #248a83;
+      border: none;
+      box-shadow: none; }
     .social-buttons .social-btn i {
       margin-right: 10px; }
 
@@ -1417,6 +1439,8 @@ object {
   cursor: pointer;
   text-shadow: none;
   box-shadow: none; }
+  .post-126 .entry-content .wpcf7-submit:hover {
+    background-color: #19625d; }
 
 .page-id-74 .site-content {
   padding-top: 0; }
@@ -1523,6 +1547,10 @@ object {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'novecentosansweb', sans-serif; }
+    .search .hentry .entry-summary a:hover {
+      color: white;
+      background-color: #248a83;
+      border: none; }
 
 /*  search page bot number  !!!!!*/
 .search-pagination {

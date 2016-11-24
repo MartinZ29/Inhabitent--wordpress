@@ -80,7 +80,6 @@
                     bottom: 0.75rem;
                     left: 0.75rem;
             }
-
         }
     }
 }
@@ -95,7 +94,7 @@
         font-family: 'merriweather';
     }
     .adventure .button a {
-            @include white-btn;
+          @include white-btn;
     }
     .more-adv {
         margin-top: 2rem;
