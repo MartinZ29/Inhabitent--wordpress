@@ -92,7 +92,9 @@
             height: 64px;
             width: 64px;
             margin-right: 1.5rem;
-            border-radius: 50%;
+            img {
+                border-radius: 50%;
+            }
         }
         .comment-author .fn {
             font-weight: bold;
